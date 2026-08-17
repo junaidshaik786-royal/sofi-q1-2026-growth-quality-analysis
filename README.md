@@ -1,6 +1,6 @@
 # SoFi Q1 2026 Growth Quality Assessment
 
-**Independent Business Analysis Portfolio Case Study | FinTech / Financial Services**
+**Business Analysis Portfolio Case Study | FinTech / Financial Services**
 
 ### Business Question
 

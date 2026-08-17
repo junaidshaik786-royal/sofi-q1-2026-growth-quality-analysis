@@ -14,7 +14,7 @@ This case study evaluates SoFi's Q1 2026 performance using publicly available fi
 - Converted the questions into analytical requirements and KPI definitions.
 - Mapped source data to financial, customer, lending, funding, cash-efficiency, diversification, and customer-friction dimensions.
 - Built a **Growth Quality Index (GQI)** using weighted signal scores.
-- Developed an executive Power BI dashboard and management-style presentation.
+- Developed an executive Power BI dashboard and executive presentation.
 - Converted the analysis into decision-oriented recommendations.
 
 ### Key Findings

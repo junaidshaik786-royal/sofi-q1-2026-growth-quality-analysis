@@ -6,7 +6,7 @@
 
 **Project Type:** Portfolio Project - Business Analysis  
 **Business Domain:** Financial Services / FinTech  
-**Role:** Independent Business Analyst  
+**Role:** Business Analyst - Portfolio Case Study
 **Reporting Period:** Q1 2026  
 **Tools:** SQL • Power BI • DAX • Excel
 

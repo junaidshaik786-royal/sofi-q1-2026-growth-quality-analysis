@@ -4,7 +4,7 @@
 
 ## SoFi Q1 2026 Growth Quality Assessment
 
-**Project Type:** Independent Business Analysis Case Study  
+**Project Type:** Portfolio Project - Business Analysis  
 **Business Domain:** Financial Services / FinTech  
 **Role:** Independent Business Analyst  
 **Reporting Period:** Q1 2026  

@@ -60,7 +60,7 @@ This became the key sustainability question: **strong reported profitability alo
 
 ### Project Artifacts
 
-- **[Executive Presentation](presentation/SoFi-Q1-2026-Growth-Quality-Assessment.pdf)**
+- **[Executive Presentation](presentation/SoFi-Q1-2026-Growth-Quality-Assessment_.pdf)**
 - **[Power BI Dashboard](dashboard/SoFi_Q1_2026_Growth_Quality_Analysis_Dashboard.pdf)**
 - **[Business & Analytical Requirements](documents/Business_Requirements_Analytical_Requirements.md)**
 - **[KPI Dictionary](documents/KPI_Dictionary.md)**

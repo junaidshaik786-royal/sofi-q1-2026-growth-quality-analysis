@@ -13,7 +13,7 @@ This pack is uploaded public after testing schema/tables/views database in MySQL
 6. `05_BUSINESS_ANALYSIS_QUERIES_FINAL.sql`
 
 ### Safer step-by-step loading
-After running `01CREATE_SCHEMA.sql`, run the table files inside `/table_loads/` in numeric order.
+After running `01_CREATE_SCHEMA.sql`, run the table files inside `/table_loads/` in numeric order.
 Then run files 03, 04, 05, 06 as listed above.
 
 ## Expected validation counts

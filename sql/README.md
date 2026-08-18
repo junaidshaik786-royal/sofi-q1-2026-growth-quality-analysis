@@ -5,7 +5,7 @@ This pack is uploaded public after testing schema/tables/views database in MySQL
 ## Run order
 
 ### Run this order only  
-1. `01_RESET_AND_CREATE_SCHEMA_FINAL.sql`
+1. `01_CREATE_SCHEMA.sql`
 2. `02_LOAD_ALL_BASE_DATA_ROW_BY_ROW_FINAL.sql`
 3. `06_LOCK_SQL_ANALYSIS_SUMMARY_FINAL.sql`
 4. `03_CREATE_ALL_FINAL_VIEWS.sql`
@@ -13,7 +13,7 @@ This pack is uploaded public after testing schema/tables/views database in MySQL
 6. `05_BUSINESS_ANALYSIS_QUERIES_FINAL.sql`
 
 ### Safer step-by-step loading
-After running `01_RESET_AND_CREATE_SCHEMA_FINAL.sql`, run the table files inside `/table_loads/` in numeric order.
+After running `01CREATE_SCHEMA.sql`, run the table files inside `/table_loads/` in numeric order.
 Then run files 03, 04, 05, 06 as listed above.
 
 ## Expected validation counts

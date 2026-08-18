@@ -36,7 +36,7 @@ The objective was not to produce another dashboard. It was to demonstrate an end
 - **Products:** 22.2M | **+39% YoY**
 - **Loan Originations:** $12.18B
 
-SoFi's reported Q1 2026 results show broad growth across revenue, profitability, members, products, and loan originations. citeturn107114search0
+SoFi's reported Q1 2026 results show broad growth across revenue, profitability, members, products, and loan originations.
 
 ### Customer Depth
 
@@ -65,7 +65,7 @@ Negative operating cash flow is not treated as an automatic indication of poor b
 - **Financial Services:** 37.4%
 - **Technology Platform:** 6.6%
 
-These are **project-derived shares of reported segment net revenue**, not official SoFi KPIs. Financial Services strengthens the diversification case, while Technology Platform weakness limits how far that conclusion can be taken. SoFi reported Q1 2026 Technology Platform net revenue of approximately $75.1M, down 27% year-over-year. citeturn107114search1
+These are **project-derived shares of reported segment net revenue**, not official SoFi KPIs. Financial Services strengthens the diversification case, while Technology Platform weakness limits how far that conclusion can be taken.
 
 ### Customer Friction
 
@@ -78,7 +78,7 @@ For the validated project extract:
 - **Selected CFPB analysis window:** January 1, 2025 – July 10, 2026
 - **Records in selected extract:** 4,724
 
-The CFPB data is not a statistical sample of customer experience and is not treated as internal SoFi support data. citeturn107114search36
+The CFPB data is not treated as internal SoFi support data and is subject to the coverage and publication limitations documented in the project methodology.
 
 ---
 
@@ -165,7 +165,7 @@ This structure is intended to make the project **traceable from business questio
 
 - This is a **public-data portfolio case study**, not an internal SoFi engagement.
 - No internal SoFi operational data, customer-service records, customer-level transactions, or management reporting were available.
-- CFPB complaints are an external proxy and are **not representative of all customers or all customer-service interactions**. citeturn107114search36
+- CFPB complaints are an external proxy and are **not representative of all customers or all customer-service interactions**.
 - Public disclosures can differ in reporting frequency, definitions, and granularity.
 - Products per member and segment revenue share are project-derived measures.
 - The GQI reflects an analyst-designed framework and is not an official SoFi score.

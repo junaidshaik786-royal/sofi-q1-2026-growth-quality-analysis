@@ -4,7 +4,7 @@ This pack is uploaded public after testing schema/tables/views database in MySQL
 
 ## Run order
 
-### Full clean rebuild
+### Run this order only  
 1. `01_RESET_AND_CREATE_SCHEMA_FINAL.sql`
 2. `02_LOAD_ALL_BASE_DATA_ROW_BY_ROW_FINAL.sql`
 3. `06_LOCK_SQL_ANALYSIS_SUMMARY_FINAL.sql`

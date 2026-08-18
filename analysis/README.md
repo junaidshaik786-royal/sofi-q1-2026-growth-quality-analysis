@@ -11,7 +11,7 @@ This folder contains the analytical workbooks used to bridge validated SQL outpu
 
 ## Public Workbook
 
-### Power BI Excel Bridge
+### Power BI Excel Bridge(../analysis/SoFi_2026_Growth_Quality_PowerBI_Excel_Bridge.xlsx)
 
 The Excel bridge contains curated analytical tables aligned to the final Power BI reporting views.
 

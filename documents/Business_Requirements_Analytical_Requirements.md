@@ -6,7 +6,7 @@
 
 **Project Type:** Portfolio Project - Business Analysis  
 **Business Domain:** Financial Services / FinTech  
-**Role:** Business Analyst   
+**Role:** Business Analysis Portfolio Project   
 **Reporting Period:** Q1 2026  
 **Tools:** SQL • Power BI • DAX • Excel
 

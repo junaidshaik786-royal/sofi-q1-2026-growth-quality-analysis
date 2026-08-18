@@ -1,52 +1,65 @@
-# SoFi 2026 Growth Quality Analysis — MySQL User Guide
+# SQL Analysis
 
-This pack is uploaded public after testing schema/tables/views database in MySQL Workbench.
+## Purpose
 
-## Run order
+This folder contains the SQL work used to prepare, validate, and analyze the data supporting the **SoFi Q1 2026 Growth Quality Assessment**.
 
-### Run this order only  
-1. `01_CREATE_SCHEMA.sql`
-2. `02_LOAD_ALL_BASE_DATA_ROW_BY_ROW_FINAL.sql`
-3. `06_LOCK_SQL_ANALYSIS_SUMMARY_FINAL.sql`
-4. `03_CREATE_ALL_FINAL_VIEWS.sql`
-5. `04_FINAL_VALIDATION_CHECKS.sql`
-6. `05_BUSINESS_ANALYSIS_QUERIES_FINAL.sql`
+The SQL workflow demonstrates the transition from source data to structured analytical outputs used by the Excel bridge and Power BI dashboard.
 
-### Safer step-by-step loading
-After running `01_CREATE_SCHEMA.sql`, run the table files inside `/table_loads/` in numeric order.
-Then run files 03, 04, 05, 06 as listed above.
+## Analytical Workflow
 
-## Expected validation counts
-- source_log = 24
-- company_financials = 5
-- member_product_metrics = 5
-- loan_deposit_metrics = 2
-- loan_originations = 4
-- cash_flow = 2
-- segment_performance = 15
-- risk_credit_metrics = 7
-- cfpb_complaints_proxy = 4724
-- kpi_dictionary = 53
-- growth_quality_index = 8
-- sql_analysis_summary = 15
-- duplicate_cfpb_ids = 0
+**Source Data → SQL Schema → Data Preparation → Validation → Analytical Queries → Dashboard Views**
 
-## Final Power BI views
-Use only these final views in Power BI:
-- v_dashboard_executive_overview
-- v_dashboard_customer_depth
-- v_dashboard_lending_funding
-- v_dashboard_cash_conversion
-- v_dashboard_segment_diversification
-- v_dashboard_loan_originations
-- v_dashboard_credit_risk
-- v_dashboard_cfpb_product_summary
-- v_dashboard_cfpb_issue_summary
-- v_dashboard_cfpb_response_summary
-- v_dashboard_cfpb_quarterly_trend
-- v_dashboard_cfpb_normalized_trend
-- v_dashboard_growth_quality_index
-- v_dashboard_sql_interview_summary
+### Core Analysis Areas
 
-## Data caveat
-CFPB complaints are an external public customer-friction proxy. They are not SoFi internal support-ticket data.
+* Financial performance
+* Customer and product depth
+* Lending and funding
+* Credit risk
+* Cash conversion
+* Segment diversification
+* CFPB customer-friction proxy
+* Growth Quality Index (GQI)
+
+## Public SQL Artifacts
+
+The published SQL files are the cleaned analytical scripts used to demonstrate the project's data preparation and analysis logic.
+
+They intentionally exclude local database credentials, local environment configuration, and raw database backup files.
+
+## Data Sources
+
+Primary sources include:
+
+* SEC Q1 2026 Form 10-Q
+* SoFi Q1 2026 Earnings Release
+* SoFi Investor Relations
+
+The CFPB Consumer Complaint Database is used as an **external public customer-friction proxy**, not as internal SoFi support data.
+
+## Key Validation Controls
+
+The SQL workflow includes checks for:
+
+* Duplicate complaint IDs
+* Reporting-period consistency
+* KPI calculations
+* Source traceability
+* Derived metric calculations
+* GQI dimension scoring
+
+## CFPB Data Scope
+
+The broader CFPB dataset used in the project covers the selected analysis window documented in the project's source mapping and methodology.
+
+The **Q1 2026 customer-friction analysis uses the Q1 2026 complaint count from the validated project extract and normalizes it against the corresponding SoFi member base.**
+
+CFPB complaint data is not a statistical sample of all customer experiences and should be interpreted as an external directional signal.
+
+## Related Artifacts
+
+* [Power BI Dashboard](../dashboard/SoFi_Q1_2026_Growth_Quality_Analysis_Dashboard.pdf)
+* [KPI Dictionary](../documents/KPI_Dictionary.md)
+* [Data Source Mapping](../documents/Data_Source_Mapping.md)
+* [GQI Methodology](../methodology/GQI_Methodology.md)
+* [Executive Presentation](../presentation/SoFi-Q1-2026-Growth-Quality-Assessment_.pdf)

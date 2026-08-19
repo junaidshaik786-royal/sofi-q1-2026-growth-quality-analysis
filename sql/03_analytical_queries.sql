@@ -1,6 +1,5 @@
 -- SoFi Q1 2026 Growth Quality Assessment
--- Public analytical query layer.
--- Queries are designed to support the project's BA questions and reporting.
+-- Queries are designed to support the project's Business Analysis questions and reporting.
 
 -- Q1. Growth and profitability
 SELECT period,

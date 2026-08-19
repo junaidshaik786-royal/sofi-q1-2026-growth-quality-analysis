@@ -109,7 +109,7 @@ Then use the repository artifacts to trace the analysis:
 
 ## Repository Architecture
 
-``text
+```text
 SoFi Q1 2026 Growth Quality Assessment
 │
 ├── README.md
@@ -131,13 +131,9 @@ SoFi Q1 2026 Growth Quality Assessment
 │   └── GQI_Methodology.md
 │
 └── sql/
-    └── README.md  
-    text``
-    
-
+    └── README.md
+```
 This structure is intended to make the project **traceable from business question to executive recommendation**, rather than present the dashboard as a standalone deliverable.
-
----
 
 ## Dataset & Scope
 

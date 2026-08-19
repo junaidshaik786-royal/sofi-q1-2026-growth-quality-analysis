@@ -105,35 +105,35 @@ The CFPB data is not treated as internal SoFi support data and is subject to the
 
 Then use the repository artifacts to trace the analysis:
 
-1. **Business & Analytical Requirements** — what the analysis was designed to answer.
-2. **KPI Dictionary** — what was measured and how each KPI was defined.
-3. **Data Source Mapping** — where the evidence came from and how source authority was handled.
-4. **SQL Analysis** — how the structured analytical layer was prepared and validated.
-5. **Power BI Dashboard** — how the evidence was visualized and analyzed.
-6. **GQI Methodology** — how analytical signals were translated into decision classifications.
-
-This structure is intended to make the project **traceable from business question to executive recommendation**, rather than present the dashboard as a standalone deliverable.
-
 ---
 
 ## Repository Architecture
 
-- SoFi Q1 2026 Growth Quality Assessment
-  - README.md
-  - presentation/
-    - SoFi-Q1-2026-Growth-Quality-Assessment_.pdf
-    - SoFi-Q1-2026-Growth-Quality-Assessment.pptx
-  - dashboard/
-    - SoFi_2026_Growth_Quality_Dashboard.pbix
-    - SoFi_Q1_2026_Growth_Quality_Analysis_Dashboard.pdf
-  - documents/
-    - Business_Requirements_Analytical_Requirements.md
-    - KPI_Dictionary.md
-    - Data_Source_Mapping.md
-  - methodology/
-    - GQI_Methodology.md
-  - sql/
-    - README.md
+``text
+SoFi Q1 2026 Growth Quality Assessment
+│
+├── README.md
+│
+├── presentation/
+│   ├── SoFi-Q1-2026-Growth-Quality-Assessment_.pdf
+│   └── SoFi-Q1-2026-Growth-Quality-Assessment.pptx
+│
+├── dashboard/
+│   ├── SoFi_2026_Growth_Quality_Dashboard.pbix
+│   └── SoFi_Q1_2026_Growth_Quality_Analysis_Dashboard.pdf
+│
+├── documents/
+│   ├── Business_Requirements_Analytical_Requirements.md
+│   ├── KPI_Dictionary.md
+│   └── Data_Source_Mapping.md
+│
+├── methodology/
+│   └── GQI_Methodology.md
+│
+└── sql/
+    └── README.md  
+    text``
+    
 
 This structure is intended to make the project **traceable from business question to executive recommendation**, rather than present the dashboard as a standalone deliverable.
 

@@ -139,7 +139,7 @@ SoFi Q1 2026 Growth Quality Assessment
 │
 └── presentation/
     ├── SoFi-Q1-2026-Growth-Quality-Assessment.pptx
-    └── SoFi-Q1-2026-Growth-Quality-Assessment.pdf
+    └── SoFi-Q1-2026-Growth-Quality-Assessment_.pdf
 ```
 
 ## Project Artifacts

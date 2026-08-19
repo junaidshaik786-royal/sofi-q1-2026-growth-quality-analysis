@@ -111,9 +111,9 @@ SoFi Q1 2026 Growth Quality Assessment
 ├── README.md
 │
 ├── assets/
-│   ├── executive-overview.png
-│   ├── cash-conversion.png
-│   └── growth-quality-index.png
+│   ├── executive-snapshot.svg
+│   ├── cash-conversion.svg
+│   └── growth-quality-index.svg
 │
 ├── sql/
 │   ├── README.md

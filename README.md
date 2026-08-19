@@ -6,7 +6,7 @@
 
 **Is SoFi's rapid Q1 2026 growth also high-quality and sustainable?**
 
-I built this independent case study to look beyond headline growth and evaluate how **customer depth, profitability, lending, funding, credit risk, cash conversion, diversification, and customer friction** interact.
+I built this independent case study to look beyond headline growth and evaluate how **customer depth, profitability, lending, funding, credit risk, cash conversion, diversification, and customer frict[...] 
 
 The objective was not to produce another dashboard. It was to demonstrate an end-to-end Business Analysis approach:
 
@@ -57,7 +57,7 @@ This created the central sustainability question in the case:
 
 > **Does cash conversion improve as the business continues to scale?**
 
-Negative operating cash flow is not treated as an automatic indication of poor business quality. The analysis evaluates the profit-to-cash divergence in the context of SoFi's lending-intensive business model.
+Negative operating cash flow is not treated as an automatic indication of poor business quality. The analysis evaluates the profit-to-cash divergence in the context of SoFi's lending-intensive busines[...]
 
 ### Diversification
 
@@ -65,7 +65,7 @@ Negative operating cash flow is not treated as an automatic indication of poor b
 - **Financial Services:** 37.4%
 - **Technology Platform:** 6.6%
 
-These are **project-derived shares of reported segment net revenue**, not official SoFi KPIs. Financial Services strengthens the diversification case, while Technology Platform weakness limits how far that conclusion can be taken.
+These are **project-derived shares of reported segment net revenue**, not official SoFi KPIs. Financial Services strengthens the diversification case, while Technology Platform weakness limits how far[...]
 
 ### Customer Friction
 
@@ -105,32 +105,35 @@ The CFPB data is not treated as internal SoFi support data and is subject to the
 
 Then use the repository artifacts to trace the analysis:
 
+1. **Business & Analytical Requirements** — what the analysis was designed to answer.
+2. **KPI Dictionary** — what was measured and how each KPI was defined.
+3. **Data Source Mapping** — where the evidence came from and how source authority was handled.
+4. **SQL Analysis** — how the structured analytical layer was prepared and validated.
+5. **Power BI Dashboard** — how the evidence was visualized and analyzed.
+6. **GQI Methodology** — how analytical signals were translated into decision classifications.
+
+This structure is intended to make the project **traceable from business question to executive recommendation**, rather than present the dashboard as a standalone deliverable.
+
+---
+
 ## Repository Architecture
 
-```text
-SoFi Q1 2026 Growth Quality Assessment
-│
-├── README.md
-│
-├── presentation/
-│   ├── SoFi-Q1-2026-Growth-Quality-Assessment_.pdf
-│   └── SoFi-Q1-2026-Growth-Quality-Assessment.pptx
-│
-├── dashboard/
-│   ├── SoFi_2026_Growth_Quality_Dashboard.pbix
-│   └── SoFi_Q1_2026_Growth_Quality_Analysis_Dashboard.pdf
-│
-├── documents/
-│   ├── Business_Requirements_Analytical_Requirements.md
-│   ├── KPI_Dictionary.md
-│   └── Data_Source_Mapping.md
-│
-├── methodology/
-│   └── GQI_Methodology.md
-│
-└── sql/
-    └── README.md
-text'''
+- SoFi Q1 2026 Growth Quality Assessment
+  - README.md
+  - presentation/
+    - SoFi-Q1-2026-Growth-Quality-Assessment_.pdf
+    - SoFi-Q1-2026-Growth-Quality-Assessment.pptx
+  - dashboard/
+    - SoFi_2026_Growth_Quality_Dashboard.pbix
+    - SoFi_Q1_2026_Growth_Quality_Analysis_Dashboard.pdf
+  - documents/
+    - Business_Requirements_Analytical_Requirements.md
+    - KPI_Dictionary.md
+    - Data_Source_Mapping.md
+  - methodology/
+    - GQI_Methodology.md
+  - sql/
+    - README.md
 
 This structure is intended to make the project **traceable from business question to executive recommendation**, rather than present the dashboard as a standalone deliverable.
 
@@ -177,7 +180,7 @@ This structure is intended to make the project **traceable from business questio
 
 - **[SQL Analysis](sql/README.md)**
 
-> The public repository is intentionally curated. Raw source archives, database backups, local environment configuration, and private interview-preparation material are kept outside the recruiter-facing repository.
+> The public repository is intentionally curated. Raw source archives, database backups, local environment configuration, and private interview-preparation material are kept outside the recruiter-faci[...] 
 
 ---
 
@@ -201,11 +204,10 @@ This structure is intended to make the project **traceable from business questio
 
 ## Scope & Disclosure
 
-This is an **independent portfolio case study based on publicly available information**. It is not an internal SoFi project, consulting engagement, or investment recommendation. The GQI is an independently designed analytical framework, not an official SoFi metric. CFPB complaint data is used only as an external public proxy for customer friction.
+This is an **independent portfolio case study based on publicly available information**. It is not an internal SoFi project, consulting engagement, or investment recommendation. The GQI is an independ[...] 
 
 ### Primary References
 
 - [SoFi Q1 2026 Quarterly Results](https://investors.sofi.com/financials/quarterly-results/default.aspx)
 - [SEC Q1 2026 Form 10-Q](https://www.sec.gov/Archives/edgar/data/1818874/000181887426000037/sofi-20260331.htm)
 - [CFPB Consumer Complaint Database](https://www.consumerfinance.gov/data-research/consumer-complaints/)
-

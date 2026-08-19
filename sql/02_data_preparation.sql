@@ -1,6 +1,4 @@
 -- SoFi Q1 2026 Growth Quality Assessment
--- Public-safe analytical preparation examples.
--- Source data and credentials are intentionally not embedded here.
 
 -- 1. Validate unique CFPB complaint records
 SELECT complaint_id, COUNT(*) AS record_count

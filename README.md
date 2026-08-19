@@ -95,28 +95,52 @@ The CFPB dataset is not treated as representative of all customers or all custom
 
 **GQI is an independently designed analytical framework, not an official SoFi metric or management scorecard.**
 
+### How to Read This Repository
+
+Start with the README visuals and **[Executive Presentation](presentation/SoFi-Q1-2026-Growth-Quality-Assessment_.pdf)**.
+
+**Evidence path:** Requirements → KPI Dictionary → Data Source Mapping → SQL → Excel Bridge → Power BI → GQI Methodology.
+
+The repository is structured so the reasoning can be traced from **business question to executive recommendation**, rather than presenting a dashboard as a standalone artifact.
+
 ## Repository Architecture
 
 ```text
 SoFi Q1 2026 Growth Quality Assessment
 │
 ├── README.md
-├── assets/                 # Recruiter-facing visual previews
-├── sql/                    # SQL schema, preparation & analytical queries
-├── analysis/               # Excel analytical bridge
-├── dashboard/              # Power BI model & dashboard PDF
-├── documents/              # Requirements, KPI dictionary & source mapping
-├── methodology/            # GQI methodology
-└── presentation/           # Executive presentation
+│
+├── assets/
+│   ├── executive-overview.png
+│   ├── cash-conversion.png
+│   └── growth-quality-index.png
+│
+├── sql/
+│   ├── README.md
+│   ├── 01_schema.sql
+│   ├── 02_data_preparation.sql
+│   └── 03_analytical_queries.sql
+│
+├── analysis/
+│   ├── README.md
+│   └── SoFi_2026_Growth_Quality_PowerBI_Excel_Bridge.xlsx
+│
+├── dashboard/
+│   ├── SoFi_2026_Growth_Quality_Dashboard.pbix
+│   └── SoFi_Q1_2026_Growth_Quality_Analysis_Dashboard.pdf
+│
+├── documents/
+│   ├── Business_Requirements_Analytical_Requirements.md
+│   ├── KPI_Dictionary.md
+│   └── Data_Source_Mapping.md
+│
+├── methodology/
+│   └── GQI_Methodology.md
+│
+└── presentation/
+    ├── SoFi-Q1-2026-Growth-Quality-Assessment.pptx
+    └── SoFi-Q1-2026-Growth-Quality-Assessment.pdf
 ```
-
-### How to Read This Repository
-
-**30-second path:** Start with the README visuals and **Executive Presentation**.
-
-**Evidence path:** Requirements → KPI Dictionary → Data Source Mapping → SQL → Excel Bridge → Power BI → GQI Methodology.
-
-The repository is structured so the reasoning can be traced from **business question to executive recommendation**, rather than presenting a dashboard as a standalone artifact.
 
 ## Project Artifacts
 

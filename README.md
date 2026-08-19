@@ -129,7 +129,8 @@ SoFi Q1 2026 Growth Quality Assessment
 │   └── GQI_Methodology.md
 │
 └── sql/
-    └── README.md  
+    └── README.md
+text'''
 
 This structure is intended to make the project **traceable from business question to executive recommendation**, rather than present the dashboard as a standalone deliverable.
 
@@ -207,3 +208,4 @@ This is an **independent portfolio case study based on publicly available inform
 - [SoFi Q1 2026 Quarterly Results](https://investors.sofi.com/financials/quarterly-results/default.aspx)
 - [SEC Q1 2026 Form 10-Q](https://www.sec.gov/Archives/edgar/data/1818874/000181887426000037/sofi-20260331.htm)
 - [CFPB Consumer Complaint Database](https://www.consumerfinance.gov/data-research/consumer-complaints/)
+

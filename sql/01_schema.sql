@@ -1,6 +1,5 @@
 -- SoFi Q1 2026 Growth Quality Assessment
--- Public-safe schema definition extracted from the project's analytical database.
--- This file intentionally excludes raw INSERT dumps, credentials, local paths,
+-- This file intentionally excludes raw INSERT dumps
 -- database backups, and environment-specific commands.
 
 CREATE TABLE company_financials (

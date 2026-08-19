@@ -8,9 +8,9 @@
 
 I built this independent case study to look beyond headline growth and examine how **customer depth, profitability, lending, funding, credit risk, cash conversion, diversification, and customer friction** interact.
 
-The project demonstrates an end-to-end BA workflow:
+The project demonstrates a structured Business Analysis approach:
 
-**Business Question → Requirements → KPI Framework → Data → SQL → Excel → Power BI → Decision Signals → Recommendations**
+**Business Question → Requirements → KPI Framework → Data → Analysis → Decision Signals → Recommendations**
 
 <p align="center">
   <img src="assets/executive-snapshot.svg" alt="SoFi Q1 2026 Executive Snapshot" width="100%">

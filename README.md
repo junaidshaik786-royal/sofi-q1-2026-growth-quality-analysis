@@ -104,11 +104,7 @@ The CFPB data is not treated as internal SoFi support data and is subject to the
 **Start with the Executive Presentation** for the business story and conclusions.
 
 Then use the repository artifacts to trace the analysis:
-
----
-
 ## Repository Architecture
-
 ```text
 SoFi Q1 2026 Growth Quality Assessment
 │

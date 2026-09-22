@@ -4,11 +4,11 @@
 
 [**Junaid Shaik Mohammed — LinkedIn**](https://www.linkedin.com/in/junaidshaikmohammed)
 
-## About the Analyst
+## About myself
 
-**Junaid Shaik Mohammed** is a Hyderabad-based Business Analyst with **3 years of professional experience in customer operations and support**. His professional background includes investigating customer issues, understanding operational workflows, documenting cases, identifying process gaps, and finding practical resolutions. That experience shaped his move toward Business Analysis: going beyond resolving an individual case to understanding **why a process behaves the way it does, what the business needs, and what the data is saying**. citeturn353032search0
+**I'm Junaid Shaik Mohammed** holding a **3 years of professional experience in customer operations and support**. My professional background includes investigating customer issues, understanding operational workflows, documenting cases, identifying process gaps, and finding practical resolutions. That experience shaped me move toward Business Analysis: going beyond resolving an individual case to understanding **why a process behaves the way it does, what the business needs, and what the data is saying**. citeturn353032search0
 
-His current BA toolkit includes **requirements analysis, KPI design, SQL, Excel, Power BI/DAX, structured documentation, and decision-support analysis**. His LinkedIn also lists the **AI Powered Business Analyst** certification from Simplilearn, issued in May 2026. citeturn353032search0
+The current BA toolkit includes **requirements analysis, KPI design, SQL, Excel, Power BI/DAX, structured documentation, and decision-support analysis**. Gained a **AI Powered Business Analyst** certification from Simplilearn, issued in May 2026. citeturn353032search0
 
 ## Business Question
 

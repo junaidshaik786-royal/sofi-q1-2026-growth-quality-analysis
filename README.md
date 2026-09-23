@@ -2,14 +2,6 @@
 
 **Business Analysis Portfolio Case Study | FinTech / Financial Services**
 
-[**Junaid Shaik Mohammed — LinkedIn**](https://www.linkedin.com/in/junaidshaikmohammed)
-
-## About myself
-
-**I'm Junaid Shaik Mohammed** holding a **3 years of professional experience in customer operations and support**. My professional background includes investigating customer issues, understanding operational workflows, documenting cases, identifying process gaps, and finding practical resolutions. That experience shaped me move toward Business Analysis: going beyond resolving an individual case to understanding **why a process behaves the way it does, what the business needs, and what the data is saying**. 
-
-The current Repository (Business Analysis realtime case study project) includes **requirements analysis, KPI design, SQL, Excel, Power BI/DAX, structured documentation, and decision-support analysis**. Gained a **AI Powered Business Analyst** certification from Simplilearn, issued in May 2026. 
-
 ## Business Question
 
 **Is SoFi's rapid Q1 2026 growth also high-quality and sustainable?**

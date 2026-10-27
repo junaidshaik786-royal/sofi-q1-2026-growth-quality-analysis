@@ -1,190 +1,99 @@
 # SoFi Q1 2026 Growth Quality Assessment
 
-**Business Analysis Portfolio Case Study | FinTech / Financial Services**
+**Business Analysis Portfolio Case Study · FinTech / Financial Services**
 
-## Business Question
+> **[Open the interactive case study](documents/SoFi_Q1_2026_Growth_Quality.html)**
+
+## Business question
 
 **Is SoFi's rapid Q1 2026 growth also high-quality and sustainable?**
 
-I built this independent case study to look beyond headline growth and examine how **customer depth, profitability, lending, funding, credit risk, cash conversion, diversification, and customer friction** interact.
+This independent public-data case study looks beyond headline growth to examine customer depth, profitability, lending, funding context, credit risk, cash conversion, segment diversification and an external complaint-data signal.
 
-The project demonstrates a structured Business Analysis approach:
+## What I did
 
-**Business Question → Requirements → KPI Framework → Data → Analysis → Decision Signals → Recommendations**
+- Framed the business question and broke it into business and analytical requirements.
+- Defined KPIs, calculations, denominators and source traceability.
+- Analyzed public-source information using SQL and Excel.
+- Built Power BI/DAX reporting and an interactive HTML report for presenting the evidence.
+- Designed a transparent, independent decision-support scorecard and documented its limitations.
 
-<p align="center">
-  <img src="assets/executive-snapshot.svg" alt="SoFi Q1 2026 Executive Snapshot" width="100%">
-</p>
+## Key findings
 
-## What I Did
+| Metric | Q1 2026 |
+|---|---:|
+| Consolidated net revenue | $1.10B (+43% YoY) |
+| GAAP net income | $166.7M |
+| Members | 14.7M (+35% YoY) |
+| Products | 22.2M (+39% YoY) |
+| Loan originations | Approximately $12.2B |
+| Products per member | Approximately 1.51 (project-derived) |
+| Share of new products from existing members | 43% (company-reported) |
 
-- Framed the business problem and defined the key analytical questions.
-- Converted those questions into **business and analytical requirements**.
-- Defined KPIs, calculation logic, source traceability, and derived metrics.
-- Prepared and validated public-source data using **SQL and Excel**.
-- Built Power BI/DAX analysis and an executive dashboard.
-- Designed an independent **Growth Quality Index (GQI)** to structure the evidence into decision signals.
-- Translated the analysis into executive findings and recommendations.
+The 43% is SoFi-reported as the share of new products from existing members. It is not relabelled as a separately calculated “cross-buy rate.” Products per member is derived from reported counts, not a standalone official SoFi KPI.
 
-## Key Findings
+### Cash conversion needs context
 
-### Growth & Customer Depth
+GAAP net income was **+$166.7M**, while net cash used in operating activities was **−$2.315B**. Negative operating cash flow alone does not prove weak business quality. SoFi's Q1 2026 Form 10-Q says the outflow primarily reflected loan originations held for sale exceeding proceeds from paydowns and sales.
 
-- **Revenue:** $1.10B | **+43% YoY**
-- **GAAP Net Income:** $166.7M | **+134% YoY**
-- **Members:** 14.7M | **+35% YoY**
-- **Products:** 22.2M | **+39% YoY**
-- **Loan Originations:** $12.18B
-- **Products per Member:** ~1.51
-- **Cross-Buy:** 43%
+### Funding ratio is not a verdict
 
-Products grew faster than members, providing a **directional proxy for improving customer depth**. Products per member is a project-derived measure, not an official SoFi KPI.
+The project calculates approximately $40.24B deposits divided by $42.17B loans, or **95.4%**. This ratio alone does not prove that deposits fund the loan book or establish overall funding quality. A fuller assessment would examine funding mix, deposit concentration, costs, maturities, liquidity and other liabilities.
 
-### Cash Efficiency
+### Segment revenue denominator
 
-- **GAAP Net Income:** +$166.7M
-- **Operating Cash Flow:** -$2.31B
-- **Net Income vs OCF Gap:** $2.48B
-- **OCF / Net Income:** -13.88x
+The project-derived segment shares—Lending 56.1%, Financial Services 37.4% and Technology Platform 6.6%—use the sum of reportable segment revenue (~$1.146B), **not** consolidated net revenue (~$1.100B).
 
-The analysis does not treat negative operating cash flow as automatically negative business quality. Instead, it raises the more useful BA question:
+### Credit and customer-friction signals
 
-> **What is happening to cash conversion as the business scales?**
+Reported total net charge-off rate was approximately **2.04%**, and the credit-card rate approximately **6.68%**. These are selected indicators, not a complete credit-risk assessment.
 
-<p align="center">
-  <img src="assets/cash-conversion.svg" alt="SoFi Q1 2026 Cash Conversion Analysis" width="100%">
-</p>
+The project reports **940 CFPB complaints** and approximately **63.92 complaints per million members** for Q1 2026. These are provisional: the source export, extraction metadata, checksum and exact unrounded member denominator are not included in the repository, so they cannot currently be independently reproduced. CFPB complaints are an external, non-representative proxy—not internal SoFi support data.
 
-### Segment Diversification
+## Growth Quality scorecard
 
-Project-derived shares of reported Q1 2026 segment net revenue:
+The scorecard displays raw analyst-assigned signal scores on a 1–5 scale. Analyst-selected weights are separate and judgment-led; no aggregate GQI total is reported because its meaning has not been validated.
 
-- **Lending:** 56.1%
-- **Financial Services:** 37.4%
-- **Technology Platform:** 6.6%
+| Dimension | Raw signal | Analyst-selected weight |
+|---|---:|---:|
+| Customer Depth | 4/5 | 1.20 |
+| Funding Quality | 3/5 | 1.20 |
+| Profitability | 4/5 | 1.10 |
+| Credit Risk | 3/5 | 1.30 |
+| Segment Diversification | 3/5 | 1.10 |
+| Operational / Customer Friction | 3/5* | 1.00 |
+| Cash Efficiency | 2/5 | 1.40 |
+| Technology Platform Performance | 2/5 | 1.00 |
 
-Financial Services strengthens the diversification case, while Technology Platform weakness limits how far that conclusion can be taken.
+*The customer-friction score is provisional while the CFPB source evidence is incomplete.
 
-### Customer Friction
+**GQI is an independent portfolio framework—not an official SoFi metric or management scorecard.** Scores and weights have not been statistically validated or reviewed with SoFi stakeholders.
 
-CFPB complaints are used only as an **external public proxy for customer friction**, not as internal SoFi support data.
+## Direct project artifacts
 
-- **Q1 2026 complaints:** 940
-- **Complaints per million members:** 63.92
-- **Selected CFPB analysis window:** January 1, 2025 – July 10, 2026
-- **Records in selected extract:** 4,724
+- [Interactive HTML report](documents/SoFi_Q1_2026_Growth_Quality.html)
+- [Power BI dashboard PDF](dashboard/SoFi_Q1_2026_Growth_Quality_Analysis_Dashboard.pdf)
+- [Power BI file](dashboard/SoFi_2026_Growth_Quality_Dashboard.pbix)
+- [Executive presentation](presentation/SoFi-Q1-2026-Growth-Quality-Assessment_.pdf)
+- [Business and analytical requirements](documents/Business_Requirements_Analytical_Requirements.md)
+- [KPI dictionary](documents/KPI_Dictionary.md)
+- [Data source mapping](documents/Data_Source_Mapping.md)
+- [GQI methodology](methodology/GQI_Methodology.md)
+- [CFPB evidence notes](documents/CFPB_Evidence_Notes.md)
+- [SQL scripts and run notes](sql/README.md)
+- [Excel analytical bridge](analysis/SoFi_2026_Growth_Quality_PowerBI_Excel_Bridge.xlsx)
 
-The CFPB dataset is not treated as representative of all customers or all customer-service interactions.
+## What I learned / what I would validate next
 
-## Growth Quality Index
+A business-analysis view depends on definitions and context, not charts alone. Ratios need clear denominators, complaint metrics need reproducible extraction details, and scorecards need transparent decision rules. Next, I would validate the framework with finance, risk and operations stakeholders, improve the CFPB evidence trail and test the approach across more quarters. This work has not yet been validated by SoFi or real business stakeholders.
 
-| Dimension | Weighted Score | Decision |
-|---|---:|---|
-| Customer Depth | 4.80 | Scale |
-| Funding Quality | 4.80 | Scale / Monitor |
-| Profitability | 4.40 | Scale |
-| Credit Risk | 3.90 | Monitor |
-| Segment Diversification | 3.30 | Improve |
-| Operational / Customer Friction | 3.00 | Monitor |
-| Cash Efficiency | 2.80 | Monitor |
-| Technology Platform Performance | 2.00 | Fix / Monitor |
+## Limitations and disclosure
 
-<p align="center">
-  <img src="assets/growth-quality-index.svg" alt="SoFi Q1 2026 Growth Quality Index" width="100%">
-</p>
+This is an independent portfolio case study based on public information, not an internal SoFi engagement. No internal SoFi customer-service, transaction or management data were available. This is not a forecast or investment recommendation. CFPB complaint figures remain provisional until the missing evidence trail is completed.
 
-**GQI is an independently designed analytical framework, not an official SoFi metric or management scorecard.**
+## Primary sources
 
-### How to Read This Repository
-
-Start with the README visuals and **[Executive Presentation](presentation/SoFi-Q1-2026-Growth-Quality-Assessment_.pdf)**.
-
-**Evidence path:** Requirements → KPI Dictionary → Data Source Mapping → SQL → Excel Bridge → Power BI → GQI Methodology.
-
-The repository is structured so the reasoning can be traced from **business question to executive recommendation**, rather than presenting a dashboard as a standalone artifact.
-
-## Repository Architecture
-
-```text
-SoFi Q1 2026 Growth Quality Assessment
-│
-├── README.md
-│
-├── assets/
-│   ├── executive-snapshot.svg
-│   ├── cash-conversion.svg
-│   └── growth-quality-index.svg
-│
-├── sql/
-│   ├── README.md
-│   ├── 01_schema.sql
-│   ├── 02_data_preparation.sql
-│   └── 03_analytical_queries.sql
-│
-├── analysis/
-│   ├── README.md
-│   └── SoFi_2026_Growth_Quality_PowerBI_Excel_Bridge.xlsx
-│
-├── dashboard/
-│   ├── SoFi_2026_Growth_Quality_Dashboard.pbix
-│   └── SoFi_Q1_2026_Growth_Quality_Analysis_Dashboard.pdf
-│
-├── documents/
-│   ├── Business_Requirements_Analytical_Requirements.md
-│   ├── KPI_Dictionary.md
-│   └── Data_Source_Mapping.md
-│
-├── methodology/
-│   └── GQI_Methodology.md
-│
-└── presentation/
-    ├── SoFi-Q1-2026-Growth-Quality-Assessment.pptx
-    └── SoFi-Q1-2026-Growth-Quality-Assessment_.pdf
-```
-
-## Project Artifacts
-
-### Executive / Decision Support
-
-- **[Executive Presentation](presentation/SoFi-Q1-2026-Growth-Quality-Assessment_.pdf)**
-- **[Power BI Dashboard](dashboard/SoFi_Q1_2026_Growth_Quality_Analysis_Dashboard.pdf)**
-
-### Business Analysis Documentation
-
-- **[Business & Analytical Requirements](documents/Business_Requirements_Analytical_Requirements.md)**
-- **[KPI Dictionary](documents/KPI_Dictionary.md)**
-- **[Data Source Mapping](documents/Data_Source_Mapping.md)**
-- **[GQI Methodology](methodology/GQI_Methodology.md)**
-
-### Analytical / Technical Layer
-
-- **[SQL Analysis](sql/README.md)**
-- **[Excel Analytical Bridge](analysis/README.md)**
-
-## Dataset & Scope
-
-- **Core business analysis:** Q1 2026, with selected historical comparison periods where comparable public data is available.
-- **Primary sources:** SEC Q1 2026 Form 10-Q, SoFi Q1 2026 earnings / investor disclosures, and CFPB Consumer Complaint Database.
-- **CFPB window:** January 1, 2025 – July 10, 2026 selected extract.
-- **GQI:** eight independently defined analytical dimensions using weighted signal scores.
-
-## Limitations & Disclosure
-
-- This is an **independent public-data portfolio case study**, not an internal SoFi engagement.
-- No internal SoFi operational data, customer-service records, customer-level transactions, or management reporting were available.
-- CFPB complaints are an external proxy and should not be interpreted as a complete measure of customer experience.
-- Products per member and segment revenue shares are project-derived measures.
-- The GQI is analyst-designed and is not an official SoFi metric.
-- Findings are decision-support interpretations, not investment or valuation advice.
-
-The public repository is intentionally curated. **Raw database backups, local environment configuration, credentials, and private working material are not published.**
-
-## Tools
-
-**SQL | Power BI | DAX | Excel | Business Analysis | KPI Design | Requirements Analysis**
-
-## Primary References
-
-- [SoFi Investor Relations — Quarterly Results](https://investors.sofi.com/financials/quarterly-results/default.aspx)
 - [SEC — SoFi Q1 2026 Form 10-Q](https://www.sec.gov/Archives/edgar/data/1818874/000181887426000037/sofi-20260331.htm)
+- [SoFi Investor Relations — Quarterly Results](https://investors.sofi.com/financials/quarterly-results/default.aspx)
+- [SoFi Q1 2026 Earnings Release](https://s27.q4cdn.com/749715820/files/doc_financials/2026/q1/2026-Q1-Earnings-Release_FINAL.pdf)
 - [CFPB Consumer Complaint Database](https://www.consumerfinance.gov/data-research/consumer-complaints/)

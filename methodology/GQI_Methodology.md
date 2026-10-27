@@ -1,147 +1,42 @@
 # Growth Quality Index (GQI) Methodology
 
-## Purpose
+## Purpose and status
 
-The Growth Quality Index (GQI) answers:
+This is an **independent portfolio decision-support scorecard** created to organize discussion of SoFi's Q1 2026 public results. It is not an official SoFi metric or management scorecard. It has not been statistically validated or reviewed with SoFi stakeholders.
 
-> **Is SoFi's Q1 2026 growth broad-based, financially healthy, and sustainable across the major dimensions of business performance?**
+## Raw signal scores
 
-The GQI combines multiple business indicators into a structured executive decision-support view.
+The HTML report displays the following analyst-assigned signal scores on a consistent 1–5 scale:
 
-## Dimensions
+| Dimension | Raw signal score | Analyst-selected weight |
+|---|---:|---:|
+| Customer Depth | 4/5 | 1.20 |
+| Funding Quality | 3/5 | 1.20 |
+| Profitability | 4/5 | 1.10 |
+| Credit Risk | 3/5 | 1.30 |
+| Segment Diversification | 3/5 | 1.10 |
+| Operational / Customer Friction | 3/5* | 1.00 |
+| Cash Efficiency | 2/5 | 1.40 |
+| Technology Platform Performance | 2/5 | 1.00 |
 
-| Dimension | Business Question |
-|---|---|
-| Customer Depth | Is customer growth translating into deeper product engagement? |
-| Funding Quality | Is the funding base supporting business and lending growth? |
-| Profitability | Is business growth accompanied by improving profitability? |
-| Credit Risk | Are credit-quality indicators requiring attention? |
-| Segment Diversification | Is growth becoming less dependent on Lending? |
-| Operational / Customer Friction | Are public customer-friction signals requiring attention? |
-| Cash Efficiency | Is profitability translating into operating cash generation? |
-| Technology Platform Performance | Is Technology Platform contributing positively to growth and diversification? |
+*The customer-friction score is provisional because the underlying CFPB export, extraction metadata, checksum and exact unrounded member denominator are not included in the repository.
 
-## Scoring Framework
+## Interpretation rules
 
-Each dimension receives a **Signal Score**, **Weight**, **Weighted Score**, and **Decision Classification**.
+- Raw scores are analyst judgments used to structure a portfolio discussion; they are not statistical estimates of future outcomes.
+- Weights represent separate analyst-selected priorities. They have not been calibrated against observed outcomes or validated by stakeholders.
+- Do not present a weighted contribution as though it were a raw 1–5 score.
+- No aggregate GQI total is reported because its interpretation, thresholds and validation basis have not been established.
+- The 95.4% deposit-to-loan ratio is one balance-sheet indicator and does not, on its own, establish funding quality.
+- The 43% figure is SoFi-reported as the share of new products from existing members; it is not a separately calculated official cross-buy metric.
+- Segment mix shares use the sum of reportable segment revenue (~$1.146B), not consolidated net revenue (~$1.100B).
+- Negative operating cash flow should be read with the Form 10-Q context: outflow primarily reflected loan originations held for sale exceeding paydowns and sales proceeds.
+- CFPB complaint counts are external, non-representative signals and are not internal SoFi customer-support data. Current project figures remain provisional pending a reproducible evidence trail.
 
-**Weighted Score = Signal Score × Weight**
+## What would strengthen the framework
 
-| Classification | Interpretation |
-|---|---|
-| Scale | Evidence supports continued expansion or investment. |
-| Scale / Monitor | Positive signal, with continued monitoring appropriate. |
-| Monitor | Material signal requiring ongoing attention. |
-| Improve | Performance or structure indicates a need for improvement. |
-| Fix / Monitor | Weaker signal requiring corrective attention and monitoring. |
-
-## Q1 2026 Assessment
-
-| Dimension | Signal Score | Weight | Weighted Score | Decision |
-|---|---:|---:|---:|---|
-| Customer Depth | 4 | 1.20 | 4.80 | Scale |
-| Funding Quality | 4 | 1.20 | 4.80 | Scale / Monitor |
-| Profitability | 4 | 1.10 | 4.40 | Scale |
-| Credit Risk | 3 | 1.30 | 3.90 | Monitor |
-| Segment Diversification | 3 | 1.10 | 3.30 | Improve |
-| Operational / Customer Friction | 3 | 1.00 | 3.00 | Monitor |
-| Cash Efficiency | 2 | 1.40 | 2.80 | Monitor |
-| Technology Platform Performance | 2 | 1.00 | 2.00 | Fix / Monitor |
-
-### Interpretation
-
-**Stronger:** Customer Depth, Funding Quality, Profitability
-
-**Monitor:** Credit Risk, Operational / Customer Friction, Cash Efficiency
-
-**Improve:** Segment Diversification
-
-**Fix / Monitor:** Technology Platform Performance
-
-## Dimension Logic
-
-### Customer Depth
-**Indicators:** Members, Total Products, Products per Member, Cross-Buy, Financial Services Products, Lending Products.
-
-**Q1 2026:** 14.7M members, 22.2M products, approximately 1.51 products per member, 43% cross-buy.
-
-**Decision:** Scale
-
-### Funding Quality
-**Indicators:** Total Deposits, Total Loans, Deposit-to-Loan Ratio.
-
-**Q1 2026:** approximately $40.24B deposits and a 95.4% deposit-to-loan ratio.
-
-**Decision:** Scale / Monitor
-
-### Profitability
-**Indicators:** Revenue, Revenue Growth, GAAP Net Income, Adjusted EBITDA, EBITDA Margin.
-
-**Q1 2026:** approximately $1.10B revenue, $166.7M GAAP net income, 31.3% adjusted EBITDA margin.
-
-**Decision:** Scale
-
-### Credit Risk
-**Indicators:** Total NCO Rate, Category NCO Rates, Loan Origination Mix.
-
-**Q1 2026:** total NCO approximately 2.04%; credit-card NCO approximately 6.68%.
-
-**Decision:** Monitor
-
-### Segment Diversification
-**Indicators:** Lending Revenue Share, Financial Services Revenue Share, Technology Platform Revenue Share, Segment Contribution Margin.
-
-**Q1 2026:** Lending 56.1%, Financial Services 37.4%, Technology Platform 6.6%.
-
-**Decision:** Improve
-
-### Operational / Customer Friction
-**Indicators:** CFPB Complaint Volume, Complaint Concentration, Complaint Issue Categories, Complaints per Million Members.
-
-**Methodological rule:** CFPB complaints are an external public proxy for customer friction, not internal SoFi support data.
-
-**Decision:** Monitor
-
-### Cash Efficiency
-**Indicators:** Net Income, Operating Cash Flow, Net Income vs. OCF Gap, OCF / Net Income.
-
-**Q1 2026:** $166.7M net income versus -$2.31B operating cash flow.
-
-**Decision:** Monitor
-
-### Technology Platform Performance
-**Indicators:** Technology Platform Revenue, Revenue Share, Contribution Margin, Enabled Accounts.
-
-**Q1 2026:** approximately $75.1M revenue and 6.6% revenue share.
-
-**Decision:** Fix / Monitor
-
-## Interpretation Principles
-
-GQI is designed to surface **trade-offs**, not replace the underlying KPI analysis.
-
-For example, strong revenue growth and profitability alongside negative operating cash flow should trigger a cash-conversion question rather than a simple good/bad conclusion.
-
-## Limitations
-
-- GQI is an independently designed portfolio methodology.
-- It is not an official SoFi management scorecard or KPI.
-- Weights represent analytical judgment for this case study.
-- Public data does not provide internal operating metrics.
-- CFPB complaints are a proxy and do not represent the full customer-service population.
-- A quarterly GQI assessment is not a forecast.
-
-## Dashboard Traceability
-
-| GQI Dimension | Primary Dashboard Area |
-|---|---|
-| Customer Depth | Customer & Product Depth |
-| Funding Quality | Lending, Funding & Credit Risk |
-| Profitability | Executive Overview |
-| Credit Risk | Lending, Funding & Credit Risk |
-| Segment Diversification | Segment Diversification |
-| Operational / Customer Friction | CFPB Customer Friction |
-| Cash Efficiency | Cash Conversion & Capital Efficiency |
-| Technology Platform Performance | Segment Diversification |
-| Decision Classification | Growth Quality Index |
-| Executive Action | Executive Recommendations |
+1. Define behavioral anchors for each score and publish evidence for each assigned value.
+2. Validate dimensions, weights and decision thresholds with finance, risk and operations stakeholders.
+3. Test consistency and usefulness across multiple quarters.
+4. Preserve source snapshots, retrieval timestamps, filters, denominators and checksums for external datasets.
+5. Compare scorecard signals with outcomes before making predictive or commercial claims.

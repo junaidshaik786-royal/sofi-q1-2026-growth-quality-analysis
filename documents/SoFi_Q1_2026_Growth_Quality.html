@@ -186,16 +186,16 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--mut);font-siz
   <h2>What the analysis showed</h2>
   <p class="lead">Six lenses on growth quality. Where a metric is project-derived rather than company-reported, it is labelled as such.</p>
   <div class="grid">
-    <div class="card"><h3>Customer depth is improving</h3><div class="big">1.51 products per member</div><p>Products grew +39% against member growth of +35%, and 43% of new products came from existing members (cross-buy). Products-per-member is a project-derived measure, not an official SoFi KPI — but the direction is consistent.</p></div>
+    <div class="card"><h3>Customer depth is improving</h3><div class="big">1.51 products per member</div><p>Products grew +39% against member growth of +35%. SoFi reported that 43% of new products came from existing members. Products per member is a project-derived ratio from reported counts, not a separate official KPI.</p></div>
     <div class="card"><h3>Growth is profitable</h3><div class="big">31.3% adj. EBITDA margin</div><p>Revenue of $1.10B (+43% YoY) came with GAAP net income of $166.7M, more than double the prior year. This is not growth bought with losses.</p></div>
-    <div class="card"><h3>Funding quality is a strength</h3><div class="big">95.4% deposit-to-loan</div><p>Approximately $40.24B in deposits fund a ~$42.17B loan book. Lending growth is deposit-backed rather than reliant on wholesale funding.</p></div>
+    <div class="card"><h3>Funding context — one ratio, not a verdict</h3><div class="big">95.4% deposit-to-loan</div><p>The project divides approximately $40.24B in deposits by $42.17B in loans. This ratio alone does not establish how the loan book is funded or prove overall funding quality. Funding mix, deposit concentration, costs, maturities and liquidity also need review.</p></div>
     <div class="card"><h3>Credit risk: one watch item</h3><div class="big">6.68% credit-card NCO</div><p>The total net charge-off rate of ~2.04% is manageable, but credit-card charge-offs at ~6.68% are the clearest risk signal in the lending stack and warrant monitoring.</p></div>
     <div class="card"><h3>The cash conversion question</h3><div class="big">-$2.31B operating cash flow</div><p>GAAP net income of +$166.7M sits against operating cash flow of -$2.31B — a $2.48B gap. Rather than scoring this good or bad, the analysis asks the more useful question: <i>what is happening to cash conversion as the business scales?</i></p></div>
-    <div class="card"><h3>Customer friction (external proxy)</h3><div class="big">63.92 complaints / M members</div><p>940 CFPB complaints in Q1 2026, normalized against the member base. CFPB data is an external public proxy only — it is not internal SoFi support data, and is treated accordingly throughout.</p></div>
+    <div class="card"><h3>Customer friction (external proxy)</h3><div class="big">63.92 complaints / M members</div><p>This project reports 940 CFPB complaints for Q1 2026 and approximately 63.92 per million members. Both figures are provisional: the source export, extraction metadata, checksum and exact unrounded member denominator are not committed here, so the metrics cannot currently be independently reproduced. CFPB complaints are an external, non-representative proxy, not internal SoFi support data.</p></div>
   </div>
 
   <h3 style="margin:48px 0 4px;font-size:17px;color:var(--navy)">Segment diversification</h3>
-  <p style="color:var(--mut);font-size:14px;margin-bottom:20px">Project-derived shares of reported Q1 2026 segment net revenue.</p>
+  <p style="color:var(--mut);font-size:14px;margin-bottom:20px">Project-derived shares of the sum of reportable segment revenue (~$1.146B), not consolidated net revenue (~$1.100B).</p>
   <div class="donut-flex">
     <svg width="210" height="210" viewBox="0 0 42 42" role="img" aria-label="Segment revenue share donut chart">
       <circle cx="21" cy="21" r="15.9" fill="none" stroke="#e3eaf0" stroke-width="7"/>
@@ -218,9 +218,9 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--mut);font-siz
 <section id="gqi"><div class="wrap">
   <div class="kick">Decision Framework</div>
   <h2>Growth Quality Index (GQI)</h2>
-  <p class="lead">To structure the evidence for an executive audience, I designed a composite index: eight business dimensions, each scored and weighted, then classified into a recommended action — <b>Scale, Monitor, Improve, or Fix</b>. Hover any row for the underlying evidence.</p>
+  <p class="lead">I designed this decision-support scorecard to make eight evidence dimensions easier to discuss. It shows raw analyst-assigned signal scores on a 1–5 scale; the weights are separate, judgment-led priorities, not a validated model. Hover a row for the evidence and caveats.</p>
   <div id="gqiList"></div>
-  <p class="gqi-note">Weighted score = signal score × dimension weight. The GQI is an independently designed analytical framework for this case study — it is not an official SoFi metric or management scorecard. Scoring logic, weights and interpretation principles are documented in <code>methodology/GQI_Methodology.md</code>.</p>
+  <p class="gqi-note">Values shown are raw signal scores on a 1–5 scale. Analyst-selected weights are separate and judgment-led; no aggregate GQI total is reported because its meaning has not been validated. This independent portfolio framework is not an official SoFi metric, has not been statistically validated, and has not been reviewed with SoFi stakeholders. The customer-friction score is provisional because the CFPB evidence trail is incomplete. See <code>methodology/GQI_Methodology.md</code> and <code>documents/CFPB_Evidence_Notes.md</code>.</p>
 </div></section>
 
 <hr class="rule">
@@ -289,19 +289,19 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--mut);font-siz
 
 <script>
 var gqi=[
- ["Customer Depth",4.80,"Scale","d-scale","14.7M members · 22.2M products · 1.51 products/member · 43% cross-buy"],
- ["Funding Quality",4.80,"Scale / Monitor","d-smonitor","~$40.24B deposits · ~$42.17B loans · 95.4% deposit-to-loan ratio"],
- ["Profitability",4.40,"Scale","d-scale","$1.10B revenue (+43% YoY) · $166.7M GAAP net income · 31.3% adj. EBITDA margin"],
- ["Credit Risk",3.90,"Monitor","d-monitor","~2.04% total net charge-offs · ~6.68% credit-card NCO — the watch item"],
- ["Segment Diversification",3.30,"Improve","d-improve","Lending 56.1% · Financial Services 37.4% · Technology Platform 6.6% of segment net revenue"],
- ["Operational / Customer Friction",3.00,"Monitor","d-monitor","940 CFPB complaints in Q1 2026 · 63.92 per million members (external proxy)"],
- ["Cash Efficiency",2.80,"Monitor","d-monitor","+$166.7M net income vs -$2.31B operating cash flow · $2.48B gap"],
- ["Technology Platform Performance",2.00,"Fix / Monitor","d-fix","~$75.1M revenue · 6.6% share · weakened in Q1 2026"]
+ ["Customer Depth",4,"Scale / Monitor","d-smonitor","14.7M members · 22.2M products · ~1.51 products/member · 43% of new products from existing members",1.20],
+ ["Funding Quality",3,"Monitor","d-monitor","~$40.24B deposits · ~$42.17B loans · 95.4% ratio alone is insufficient to assess funding quality",1.20],
+ ["Profitability",4,"Scale / Monitor","d-smonitor","$1.10B revenue (+43% YoY) · $166.7M GAAP net income · 31.3% adjusted EBITDA margin (non-GAAP)",1.10],
+ ["Credit Risk",3,"Monitor","d-monitor","~2.04% total net charge-offs · ~6.68% credit-card NCO — selected indicators, not a complete assessment",1.30],
+ ["Segment Diversification",3,"Improve","d-improve","Lending 56.1% · Financial Services 37.4% · Technology Platform 6.6% of reportable segment revenue",1.10],
+ ["Operational / Customer Friction",3,"Monitor — provisional","d-monitor","940 CFPB complaints · ~63.92 per million members (provisional; source export and exact denominator not committed)",1.00],
+ ["Cash Efficiency",2,"Monitor","d-monitor","+$166.7M net income vs -$2.315B operating cash flow; 10-Q says outflow primarily reflected held-for-sale originations outpacing paydowns and sales",1.40],
+ ["Technology Platform Performance",2,"Improve / Monitor","d-improve","~$75.1M revenue · ~6.6% of reportable segment revenue · weakened YoY",1.00]
 ];
 var list=document.getElementById('gqiList');
 gqi.forEach(function(d){
-  var row=document.createElement('div');row.className='gqi';row.title=d[4];
-  row.innerHTML='<div class="nm">'+d[0]+'</div><div class="track"><div class="fill" data-w="'+(d[1]/5*100).toFixed(1)+'"></div></div><div class="sc">'+d[1].toFixed(2)+'</div><div class="dec '+d[3]+'">'+d[2]+'</div>';
+  var row=document.createElement('div');row.className='gqi';row.title=d[4]+' | Analyst-selected weight: '+d[5].toFixed(2);
+  row.innerHTML='<div class="nm">'+d[0]+'</div><div class="track"><div class="fill" data-w="'+(d[1]/5*100).toFixed(1)+'"></div></div><div class="sc">'+d[1].toFixed(0)+'/5</div><div class="dec '+d[3]+'">'+d[2]+'</div>';
   list.appendChild(row);
 });
 function reveal(){document.querySelectorAll('.fill').forEach(function(f){if(f.getBoundingClientRect().top<innerHeight)f.style.width=f.dataset.w+'%'})}

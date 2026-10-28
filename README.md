@@ -6,6 +6,56 @@
   </a>
 </p>
 
+## Executive Snapshot
+
+<div align="center">
+  <h3>SoFi Q1 2026 — Executive Snapshot</h3>
+  <p><em>Growth, profitability and customer scale used in the portfolio assessment</em></p>
+</div>
+
+<table>
+  <tr>
+    <td width="25%" valign="top" bgcolor="#1a2635" style="padding: 22px 18px; border-radius: 12px;">
+      <div style="font-size: 16px; color: #dfeaf7; font-weight: 600;">Revenue</div>
+      <div style="font-size: 30px; font-weight: 700; color: #f4f7fb; margin-top: 12px;">$1.10B</div>
+      <div style="font-size: 18px; color: #7de8c4; margin-top: 8px;">+43% YoY</div>
+    </td>
+    <td width="25%" valign="top" bgcolor="#1a2635" style="padding: 22px 18px; border-radius: 12px;">
+      <div style="font-size: 16px; color: #dfeaf7; font-weight: 600;">GAAP Net Income</div>
+      <div style="font-size: 30px; font-weight: 700; color: #f4f7fb; margin-top: 12px;">$166.7M</div>
+      <div style="font-size: 18px; color: #7de8c4; margin-top: 8px;">+134% YoY</div>
+    </td>
+    <td width="25%" valign="top" bgcolor="#1a2635" style="padding: 22px 18px; border-radius: 12px;">
+      <div style="font-size: 16px; color: #dfeaf7; font-weight: 600;">Members</div>
+      <div style="font-size: 30px; font-weight: 700; color: #f4f7fb; margin-top: 12px;">14.7M</div>
+      <div style="font-size: 18px; color: #7de8c4; margin-top: 8px;">+35% YoY</div>
+    </td>
+    <td width="25%" valign="top" bgcolor="#1a2635" style="padding: 22px 18px; border-radius: 12px;">
+      <div style="font-size: 16px; color: #dfeaf7; font-weight: 600;">Products</div>
+      <div style="font-size: 30px; font-weight: 700; color: #f4f7fb; margin-top: 12px;">22.2M</div>
+      <div style="font-size: 18px; color: #7de8c4; margin-top: 8px;">+39% YoY</div>
+    </td>
+  </tr>
+  <tr>
+    <td width="25%" valign="top" style="padding: 18px; border-top: 1px solid #2a3a4d;">
+      <div style="font-size: 16px; color: #dfeaf7; font-weight: 600;">Customer depth</div>
+      <div style="font-size: 28px; font-weight: 700; color: #f4f7fb; margin-top: 10px;">~1.51 products/member</div>
+    </td>
+    <td width="25%" valign="top" style="padding: 18px; border-top: 1px solid #2a3a4d;">
+      <div style="font-size: 16px; color: #dfeaf7; font-weight: 600;">Cross-buy</div>
+      <div style="font-size: 28px; font-weight: 700; color: #f4f7fb; margin-top: 10px;">43%</div>
+    </td>
+    <td width="25%" valign="top" style="padding: 18px; border-top: 1px solid #2a3a4d;">
+      <div style="font-size: 16px; color: #dfeaf7; font-weight: 600;">Loan originations</div>
+      <div style="font-size: 28px; font-weight: 700; color: #f4f7fb; margin-top: 10px;">$12.18B</div>
+    </td>
+    <td width="25%" valign="top" style="padding: 18px; border-top: 1px solid #2a3a4d;">
+      <div style="font-size: 16px; color: #dfeaf7; font-weight: 600;">Core question</div>
+      <div style="font-size: 28px; font-weight: 700; color: #f4f7fb; margin-top: 10px;">Is growth sustainable?</div>
+    </td>
+  </tr>
+</table>
+
 **Business question:** *Is SoFi's rapid Q1 2026 growth also high-quality and sustainable?*
 
 I built this analysis to answer a question that matters in FinTech: was SoFi's Q1 2026 growth real, durable, and high-quality OR was it simply a strong headline story backed by volume?
@@ -14,17 +64,15 @@ The short answer is: the growth was meaningful, but the quality story was mixed.
 
 ## Why this project matters
 
-Growth metrics alone can be misleading. A business can show strong revenue expansion while still facing weak cash conversion, unstable funding conditions, operational friction, or uneven customer engagement. 
-
-This project was designed to evaluate that question in a structured way. The goal was not to label SoFi as simply good or bad, but to assess whether the growth pattern appeared durable, economically healthy, and supported by underlying business quality.
+Growth metrics alone can be misleading. A business can show strong revenue expansion while still facing weak cash conversion, unstable funding conditions, operational friction, or uneven customer engagement. This project was designed to evaluate that question in a structured way. The goal was not to label SoFi as simply good or bad, but to assess whether the growth pattern appeared durable, economical, and supported by underlying business quality.
 
 ## Business question
 
 Is SoFi's rapid Q1 2026 growth also high-quality and sustainable?
 
-SoFi was clearly growing fast. The issue was not whether the business was scaling — it was whether that scale was translating into deeper customer engagement, stronger unit economics, healthier funding dynamics, and more durable operating quality.
+SoFi was clearly growing fast. The issue was not whether the business was scaling — it was whether that scale was translating into deeper customer engagement, stronger unit economics, healthier funding, and a more resilient operating model.
 
-I approached the problem as a business analyst rather than a market commentator: using public filings, operating data, customer-friction signals, and a structured scorecard to separate volume growth from quality growth.
+I approached the problem as a business analyst rather than a market commentator: using public filings, operating data, customer-friction signals, and a structured scorecard to separate volume growth from underlying quality.
 
 ## What I did
 
@@ -37,7 +85,7 @@ I approached the problem as a business analyst rather than a market commentator:
 
 ## What I learned
 
-The biggest lesson from this work was that business quality is rarely visible in the headline numbers alone. Revenue growth, customer counts, and product expansion can all look strong while the underlying economics remain weak or unstable.
+The biggest lesson from this work was that business quality is rarely visible in the headline numbers alone. Revenue growth, customer counts, and product expansion can all look strong while the underlying economics remain fragile or inconsistent.
 
 I also learned how important it is to separate a directional signal from a firm conclusion. Public data can be highly informative, but it is never the full story.
 
@@ -90,7 +138,7 @@ This repository contains the complete project package and the supporting analyti
 
 ## Growth Quality scorecard
 
-I built the scorecard to summarize the signal quality across the core business dimensions, without pretending that a single number could settle the question. The scorecard below reflects analyst-selected weighting across customer depth, funding quality, profitability, credit risk, segment diversification, operational/customer friction, cash efficiency, and technology platform performance.
+I built the scorecard to summarize the signal quality across the core business dimensions, without pretending that a single number could settle the question. The scorecard below reflects analyst-selected weightings across the main dimensions of performance and risk.
 
 | Dimension | Raw signal | Analyst-selected weight |
 |---|---:|---:|
@@ -117,7 +165,7 @@ What stood out most to me was this:
 
 ## Limitations and disclosure
 
-This is an independent analysis based on public information, not an internal SoFi engagement. No internal customer-service, transaction, or management data were available. I did not use insider information, and the project is intentionally transparent about its assumptions and limitations.
+This is an independent analysis based on public information, not an internal SoFi engagement. No internal customer-service, transaction, or management data were available. I did not use insider information or non-public operating data.
 
 ## Data sources and transparency
 
@@ -128,13 +176,13 @@ Primary sources include:
 - SoFi Q1 2026 earnings release
 - CFPB Consumer Complaint Database as a public customer-friction proxy
 
-This project is intentionally transparent about its limits. It is an independent case study based on public information rather than internal SoFi data. No internal customer-service, transaction, or management data were used.
+This project is intentionally transparent about its limits. It is an independent case study based on public information rather than internal SoFi data. No internal customer-service, transaction, or operational dataset was used.
 
 ## Final takeaway
 
 This project is best understood as a structured business-analysis framework for evaluating growth quality, not as a definitive verdict on SoFi's operations.
 
-The aim was to assess whether the rapid Q1 2026 growth pattern appeared durable, economically healthy, and supported by underlying business quality — while making assumptions, data limitations, and evidence quality explicit.
+The aim was to assess whether the rapid Q1 2026 growth pattern appeared durable, economically healthy, and supported by underlying business quality — while making assumptions, data limitations, and source transparency explicit.
 
 ## Primary sources
 

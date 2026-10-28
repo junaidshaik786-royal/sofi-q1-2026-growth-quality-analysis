@@ -10,11 +10,13 @@ This project examines the quality of SoFi's Q1 2026 growth beyond headline reven
 
 ## Snapshot
 
-<img src="assets/executive-snapshot.svg" alt="Executive snapshot" width="100%" />
-
-<img src="assets/growth-quality-index.svg" alt="Growth quality index" width="100%" />
-
-<img src="assets/cash-conversion.svg" alt="Cash conversion" width="100%" />
+<table>
+  <tr>
+    <td><img src="assets/executive-snapshot.svg" alt="Executive snapshot" width="100%" /></td>
+    <td><img src="assets/growth-quality-index.svg" alt="Growth quality index" width="100%" /></td>
+    <td><img src="assets/cash-conversion.svg" alt="Cash conversion" width="100%" /></td>
+  </tr>
+</table>
 
 ## Business question
 

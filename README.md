@@ -2,11 +2,9 @@
 
 <p align="center">
   <a href="https://sofi-q1-2026-growth-quality.netlify.app/" target="_blank" rel="noopener noreferrer">
-    <img src="https://image.thum.io/get/width/1400/https://sofi-q1-2026-growth-quality.netlify.app/" alt="SoFi Q1 2026 Growth Quality Assessment live website preview" width="1500" />
+    <img src="https://image.thum.io/get/width/1000/crop/650/https://sofi-q1-2026-growth-quality.netlify.app/" alt="Preview of SoFi’s business question and hero section" width="700" />
   </a>
 </p>
-
-# SoFi Q1 2026 Growth Quality Assessment
 
 **Business question:** *Is SoFi's rapid Q1 2026 growth also high-quality and sustainable?*
 

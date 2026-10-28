@@ -1,6 +1,10 @@
 # SoFi Q1 2026 Growth Quality Assessment
 
-[SoFi is growing fast. How well is it growing?](https://sofi-q1-2026-growth-quality.netlify.app/)
+<div align="center">
+  <a href="https://sofi-q1-2026-growth-quality.netlify.app/" target="_blank" rel="noopener noreferrer">
+    <img src="https://image.thum.io/get/width/1200/height/420/crop/1/https://sofi-q1-2026-growth-quality.netlify.app/" alt="SoFi is growing fast. How well is it growing?" width="900" />
+  </a>
+</div>
 
 ## Business question
 

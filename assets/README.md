@@ -4,7 +4,3 @@ This folder contains the supporting visual assets used across the SoFi Q1 2026 G
 
 These files support the report, dashboard, and executive narrative with summary visuals and scorecard graphics.
 
-## Included
-- growth quality index visuals
-- executive summary graphics
-- supporting dashboard illustrations

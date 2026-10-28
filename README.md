@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://sofi-q1-2026-growth-quality.netlify.app/" target="_blank" rel="noopener noreferrer">
-    <img src="https://image.thum.io/get/width/1000/crop/650/https://sofi-q1-2026-growth-quality.netlify.app/" alt="Preview of SoFi’s business question and hero section" width="700" />
+    <img src="https://image.thum.io/get/width/1200/crop/650/https://sofi-q1-2026-growth-quality.netlify.app/" alt="Preview of SoFi’s business question and hero section" width="700" />
   </a>
 </p>
 

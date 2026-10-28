@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://sofi-q1-2026-growth-quality.netlify.app/" target="_blank" rel="noopener noreferrer">
-    <img src="assets/executive-snapshot.svg" alt="Live preview of the SoFi Q1 2026 Growth Quality Assessment website" width="100%" />
+    <img src="https://image.thum.io/get/width/1400/https://sofi-q1-2026-growth-quality.netlify.app/" alt="SoFi Q1 2026 Growth Quality Assessment live website preview" width="100%" />
   </a>
 </p>
 

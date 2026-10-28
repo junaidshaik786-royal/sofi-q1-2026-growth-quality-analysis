@@ -2,9 +2,9 @@
 
 ![Executive overview](assets/executive-snapshot.svg)
 
-This project was built to answer a practical business question: Is SoFi's rapid Q1 2026 growth also high-quality and sustainable?
+I built this analysis to answer a question that matters in FinTech: was SoFi's Q1 2026 growth real, durable, and high-quality — or was it simply a strong headline story backed by volume?
 
-It is an independent public-data case study designed to look beyond headline growth and assess the underlying quality of the business using SEC filings, investor disclosures, and external customer-friction evidence.
+The short answer is: the growth was meaningful, but the quality story was mixed.
 
 > Live site: [Open the interactive report](https://sofi-q1-2026-growth-quality.netlify.app/)  
 > Repository source: [index.html](index.html)
@@ -13,39 +13,34 @@ It is an independent public-data case study designed to look beyond headline gro
 
 Growth metrics alone can be misleading. A business can show strong revenue expansion while still facing weak cash conversion, unstable funding conditions, operational friction, or uneven customer depth.
 
-This project was designed to evaluate that question in a structured way. The goal was not to label SoFi as simply good or bad, but to assess whether the growth pattern appears durable, economically healthy, and increasingly defensible.
+This project was designed to evaluate that question in a structured way. The goal was not to label SoFi as simply good or bad, but to assess whether the growth pattern appeared durable, economically healthy, and increasingly defensible.
 
 ## Business question
 
-Is SoFi's Q1 2026 growth genuinely high-quality and sustainable, or is it mostly growth at a lower-quality level?
+Is SoFi's rapid Q1 2026 growth also high-quality and sustainable?
 
-To answer that, the analysis looks at several areas:
+SoFi was clearly growing fast. The issue was not whether the business was scaling — it was whether that scale was translating into deeper customer engagement, stronger unit economics, healthier funding, and more durable operating quality.
 
-- customer depth and engagement
-- product adoption and member expansion
-- profitability and cash conversion
-- lending and funding mix
-- segment diversification
-- credit risk and charge-off signals
-- customer-friction and complaint trends
+I approached the problem as a business analyst rather than a market commentator: using public filings, operating data, customer-friction signals, and a structured scorecard to separate volume growth from quality growth.
 
-## My approach
+## What I did
 
-I framed the analysis as a decision-support business case rather than a surface-level dashboard exercise.
+- Framed the business question and translated it into analytical requirements.
+- Defined KPIs, formulas, denominators, and source traceability.
+- Reviewed public SEC and investor materials alongside CFPB complaint evidence.
+- Modeled the analysis in SQL and structured the outputs in Excel.
+- Built a Power BI reporting layer and an interactive HTML summary for stakeholder presentation.
+- Created a transparent scorecard to show where the quality story looked stronger and where it looked weaker.
 
-The project uses public data to:
+## What I learned
 
-- define the business problem clearly
-- build a KPI framework with transparent denominators
-- map evidence to sources
-- validate assumptions and limitations
-- translate analysis into a scorecard and reporting package
+The biggest lesson from this work was that business quality is rarely visible in the headline numbers alone. Revenue growth, customer counts, and product expansion can all look strong while the underlying operating quality remains more mixed. The real value of the analysis was in checking the denominator, the context, and the trade-offs.
 
-This makes the project more than a chart collection. It is a structured business assessment built to answer a real question with traceable evidence.
+I also learned how important it is to separate a directional signal from a firm conclusion. Public data can be highly informative, but it is never the full story.
 
-## What is in this repository
+## What this repository contains
 
-This repository contains the final project package and the supporting analytical materials behind it:
+This repository contains the complete project package and the supporting analytical materials behind it:
 
 - [Interactive HTML report](documents/SoFi_Q1_2026_Growth_Quality.html)
 - [Power BI dashboard PDF](dashboard/SoFi_Q1_2026_Growth_Quality_Analysis_Dashboard.pdf)
@@ -90,9 +85,9 @@ The analysis surfaces several important nuances that matter in a quality assessm
 
 ![Growth quality index](assets/growth-quality-index.svg)
 
-## Growth quality scorecard
+## Growth Quality scorecard
 
-The project uses a separate analyst-led scorecard to summarize quality signals across the business. This is not an official SoFi metric and should not be interpreted as management's internal assessment.
+I built the scorecard to summarize the signal quality across the core business dimensions, without pretending that a single number could settle the question. The scorecard below reflects analyst-assigned raw scores on a 1–5 scale, with separate weights for judgment-led emphasis.
 
 | Dimension | Raw signal | Analyst-selected weight |
 |---|---:|---:|
@@ -107,11 +102,19 @@ The project uses a separate analyst-led scorecard to summarize quality signals a
 
 *Customer-friction score is provisional while the CFPB source evidence is incomplete.
 
-## What I learned
+## My assessment
 
-This project reinforced an important lesson in business analysis: growth is not the same as quality.
+What stood out most to me was this:
 
-A business can look strong on headline performance while still carrying hidden risks in cash conversion, funding structure, operational friction, or customer depth. The quality of growth depends on definitions, denominators, context, and disciplined interpretation.
+- SoFi showed real customer expansion and product depth.
+- The growth engine looked active and scalable.
+- But the quality story was less clean than the headline growth suggested.
+- Cash conversion, funding context, and customer-friction risk all required more careful interpretation.
+- That is why I did not treat the business as simply "strong" or "weak." The more honest conclusion is that the growth looked promising, but not yet fully de-risked.
+
+## Limitations and disclosure
+
+This is an independent analysis based on public information, not an internal SoFi engagement. No internal customer-service, transaction, or management data were available. I did not use insider information, and this project should not be interpreted as a management forecast, credit opinion, or investment recommendation.
 
 ## Data sources and transparency
 
@@ -128,7 +131,7 @@ This project is intentionally transparent about its limits. It is an independent
 
 This project is best understood as a structured business-analysis framework for evaluating growth quality, not as a definitive verdict on SoFi's operations.
 
-The aim was to assess whether the rapid Q1 2026 growth pattern appears durable, economically healthy, and supported by underlying business quality — while making assumptions, data limitations, and interpretation choices visible.
+The aim was to assess whether the rapid Q1 2026 growth pattern appeared durable, economically healthy, and supported by underlying business quality — while making assumptions, data limitations, and interpretation choices visible.
 
 ## Primary sources
 

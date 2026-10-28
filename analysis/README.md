@@ -1,49 +1,47 @@
-
 # Analytical Workbooks
 
 ## Purpose
 
-This folder contains the analytical workbooks used to bridge validated SQL outputs into the Power BI reporting layer and support KPI analysis.
+This folder contains the analytical workbooks used to bridge validated SQL outputs into the Power BI reporting layer and support KPI analysis for the SoFi Q1 2026 Growth Quality Assessment.
 
-## Analytical Flow
+## How this fits into the project
 
-**SQL Outputs → Excel Analytical Bridge → Power BI → Executive Reporting**
+The analytical workflow is straightforward:
 
-## Public Workbook
+**SQL outputs → Excel bridge → Power BI → executive reporting**
 
-### [Power BI Excel Bridge](../analysis/SoFi_2026_Growth_Quality_PowerBI_Excel_Bridge.xlsx)
+The workbook is the translation layer between the cleaned analytical outputs and the final reporting package. It helps connect the evidence generated in SQL to the business narrative presented in the dashboard and presentation deck.
 
-The Excel bridge contains curated analytical tables aligned to the final Power BI reporting views.
+## Public workbook
 
-It supports analysis across:
+### [Power BI Excel Bridge](SoFi_2026_Growth_Quality_PowerBI_Excel_Bridge.xlsx)
 
-* Executive performance
-* Customer depth
-* Lending and funding
-* Cash conversion
-* Segment diversification
-* Loan originations
-* Credit risk
-* CFPB customer-friction proxy
-* Growth Quality Index
+This workbook contains curated analytical tables aligned to the final reporting views and KPI structure. It supports analysis across:
 
-## Data Governance
+- executive performance
+- customer depth
+- lending and funding
+- cash conversion
+- segment diversification
+- loan originations
+- credit risk
+- CFPB customer-friction proxy
+- Growth Quality Index
+
+## Data governance
 
 The workbook uses validated project outputs rather than raw database backups.
 
-It does not represent internal SoFi data.
+It does not represent internal SoFi customer, transaction, or management data. The CFPB complaint dataset is treated as an external public proxy and is not equivalent to internal support-ticket data.
 
-CFPB complaint data is treated as an external public proxy and is not equivalent to internal customer-support or service-ticket data.
+## Reproducibility and transparency
 
-## Reproducibility
+This workbook is included to make the analytical transition from SQL to reporting clear and auditable. The raw database files and source archives remain intentionally outside the public portfolio repository.
 
-The workbook is provided to make the analytical transition from SQL outputs to the Power BI reporting layer transparent.
+## Related artifacts
 
-The underlying database backup files and raw source archives are intentionally kept outside the public portfolio repository.
-
-## Related Artifacts
-
-* [SQL Analysis](../sql/README.md)
-* [Power BI Dashboard](../dashboard/SoFi_Q1_2026_Growth_Quality_Analysis_Dashboard.pdf)
-* [KPI Dictionary](../documents/KPI_Dictionary.md)
-* [Data Source Mapping](../documents/Data_Source_Mapping.md)
+- [SQL Analysis](../sql/README.md)
+- [Power BI Dashboard](../dashboard/SoFi_Q1_2026_Growth_Quality_Analysis_Dashboard.pdf)
+- [KPI Dictionary](../documents/KPI_Dictionary.md)
+- [Data Source Mapping](../documents/Data_Source_Mapping.md)
+- [Executive Summary](../documents/Executive Business Analysis Summary.docx)

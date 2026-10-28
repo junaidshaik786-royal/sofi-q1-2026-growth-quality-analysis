@@ -1,5 +1,7 @@
 # SoFi Q1 2026 Growth Quality Assessment
 
+![Executive overview](assets/executive-snapshot.svg)
+
 Independent business analysis portfolio case study evaluating whether SoFi's Q1 2026 growth is both fast and high-quality.
 
 > Live site: [Open the interactive report](https://sofi-q1-2026-growth-quality.netlify.app/)  
@@ -77,6 +79,8 @@ The analysis highlights several important nuances:
 - Funding ratio is not a verdict. Deposits relative to loans can be informative, but do not prove full funding quality by themselves.
 - Segment mix matters. The project distinguishes between consolidated and segment-level revenue denominators to avoid misleading comparisons.
 - Credit and customer-friction signals are directional, not definitive. They are included as evidence points rather than final judgments.
+
+![Growth quality index](assets/growth-quality-index.svg)
 
 ## Growth quality scorecard
 

@@ -2,11 +2,7 @@
 
 <p align="center">
   <a href="https://sofi-q1-2026-growth-quality.netlify.app/" target="_blank" rel="noopener noreferrer">
-    <img
-      src="https://image.thum.io/get/width/1200/height/440/crop/1/https://sofi-q1-2026-growth-quality.netlify.app/"
-      alt="SoFi is growing fast. How well is it growing?"
-      width="820"
-    />
+    <img src="assets/sofi-hero-preview.png" alt="SoFi is growing fast. How well is it growing?" width="820" />
   </a>
 </p>
 

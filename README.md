@@ -1,22 +1,34 @@
 # SoFi Q1 2026 Growth Quality Assessment
 
-**Business Analysis Portfolio Case Study · FinTech / Financial Services**
+Independent public-data business analysis case study evaluating whether SoFi's Q1 2026 growth is also high-quality and sustainable.
 
 > **[Open the live interactive website](https://sofi-q1-2026-growth-quality.netlify.app/)** · [View the HTML source in this repository](index.html)
+
+## Overview
+
+This project examines the quality of SoFi's Q1 2026 growth beyond headline revenue expansion. It looks at customer depth, profitability, lending, funding context, credit risk, cash conversion, segment diversification, and customer-friction signals to assess whether the growth is durable and supported by underlying operating quality.
+
+## Snapshot
+
+<img src="assets/executive-snapshot.svg" alt="Executive snapshot" width="100%" />
+
+<img src="assets/growth-quality-index.svg" alt="Growth quality index" width="100%" />
+
+<img src="assets/cash-conversion.svg" alt="Cash conversion" width="100%" />
 
 ## Business question
 
 **Is SoFi's rapid Q1 2026 growth also high-quality and sustainable?**
 
-This independent public-data case study looks beyond headline growth to examine customer depth, profitability, lending, funding context, credit risk, cash conversion, segment diversification and an external complaint-data signal.
+This independent public-data case study looks beyond headline growth to evaluate whether expansion is supported by durable customer engagement, strong profitability, and manageable operating trade-offs.
 
 ## What I did
 
 - Framed the business question and broke it into business and analytical requirements.
-- Defined KPIs, calculations, denominators and source traceability.
+- Defined KPIs, calculations, denominators, and source traceability.
 - Analyzed public-source information using SQL and Excel.
 - Built Power BI/DAX reporting and an interactive HTML report for presenting the evidence.
-- Designed a transparent, independent decision-support scorecard and documented its limitations.
+- Designed a transparent, independent decision-support scorecard and documented key limitations.
 
 ## Key findings
 
@@ -30,29 +42,29 @@ This independent public-data case study looks beyond headline growth to examine 
 | Products per member | Approximately 1.51 (project-derived) |
 | Share of new products from existing members | 43% (company-reported) |
 
-The 43% is SoFi-reported as the share of new products from existing members. It is not relabelled as a separately calculated “cross-buy rate.” Products per member is derived from reported counts, not a standalone official SoFi KPI.
+The 43% figure reflects SoFi-reported share of new products from existing members. The product-per-member metric is derived from reported counts and is useful as a directional growth-quality signal, but it does not alone establish sustainable expansion.
 
 ### Cash conversion needs context
 
-GAAP net income was **+$166.7M**, while net cash used in operating activities was **−$2.315B**. Negative operating cash flow alone does not prove weak business quality. SoFi's Q1 2026 Form 10-Q says the outflow primarily reflected loan originations held for sale exceeding proceeds from paydowns and sales.
+GAAP net income was **+$166.7M**, while net cash used in operating activities was **−$2.315B**. Negative operating cash flow alone does not prove weak business quality. It must be interpreted alongside loan growth, funding mix, and operating model context.
 
 ### Funding ratio is not a verdict
 
-The project calculates approximately $40.24B deposits divided by $42.17B loans, or **95.4%**. This ratio alone does not prove that deposits fund the loan book or establish overall funding quality. A fuller assessment would examine funding mix, deposit concentration, costs, maturities, liquidity and other liabilities.
+The project calculates approximately $40.24B deposits divided by $42.17B loans, or **95.4%**. This ratio alone does not prove that deposits fund the loan book or establish overall funding quality. It is a directional indicator, not a verdict.
 
 ### Segment revenue denominator
 
-The project-derived segment shares—Lending 56.1%, Financial Services 37.4% and Technology Platform 6.6%—use the sum of reportable segment revenue (~$1.146B), **not** consolidated net revenue (~$1.100B).
+The project-derived segment shares—Lending 56.1%, Financial Services 37.4%, and Technology Platform 6.6%—use the sum of reportable segment revenue (~$1.146B), not consolidated net revenue (~$1.10B). This distinction matters when interpreting the quality and mix of growth.
 
 ### Credit and customer-friction signals
 
 Reported total net charge-off rate was approximately **2.04%**, and the credit-card rate approximately **6.68%**. These are selected indicators, not a complete credit-risk assessment.
 
-The project reports **940 CFPB complaints** and approximately **63.92 complaints per million members** for Q1 2026. These are provisional: the source export, extraction metadata, checksum and exact unrounded member denominator are not included in the repository, so they cannot currently be independently reproduced. CFPB complaints are an external, non-representative proxy—not internal SoFi support data.
+The project reports **940 CFPB complaints** and approximately **63.92 complaints per million members** for Q1 2026. These are provisional: the source export, extraction metadata, checksum, and exact extraction method should be reviewed before using the figure as a formal service-quality benchmark.
 
 ## Growth Quality scorecard
 
-The scorecard displays raw analyst-assigned signal scores on a 1–5 scale. Analyst-selected weights are separate and judgment-led; no aggregate GQI total is reported because its meaning has not been validated.
+The scorecard below displays raw analyst-assigned signal scores on a 1–5 scale. Analyst-selected weights are separate and judgment-led; no aggregate GQI total is reported because its meaning has not been validated as a formal model output.
 
 | Dimension | Raw signal | Analyst-selected weight |
 |---|---:|---:|
@@ -85,11 +97,11 @@ The scorecard displays raw analyst-assigned signal scores on a 1–5 scale. Anal
 
 ## What I learned / what I would validate next
 
-A business-analysis view depends on definitions and context, not charts alone. Ratios need clear denominators, complaint metrics need reproducible extraction details, and scorecards need transparent decision rules. Next, I would validate the framework with finance, risk and operations stakeholders, improve the CFPB evidence trail and test the approach across more quarters. This work has not yet been validated by SoFi or real business stakeholders.
+A business-analysis view depends on definitions and context, not charts alone. Ratios need clear denominators, complaint metrics need reproducible extraction details, and scorecards need transparent assumptions to be decision-useful.
 
 ## Limitations and disclosure
 
-This is an independent portfolio case study based on public information, not an internal SoFi engagement. No internal SoFi customer-service, transaction or management data were available. This is not a forecast or investment recommendation. CFPB complaint figures remain provisional until the missing evidence trail is completed.
+This is an independent case study based on public information, not an internal SoFi engagement. No internal SoFi customer-service, transaction, or management data were available. This is not a management forecast, credit opinion, or investment recommendation.
 
 ## Primary sources
 

@@ -19,10 +19,3 @@ The presentation is the executive-facing summary of the project: it translates t
 
 This is a decision-support presentation, not an official SoFi management document. It reflects the project’s public-source analysis, analytical assumptions, and disclosure commitments.
 
-## Related artifacts
-
-- [Interactive HTML Report](../documents/SoFi_Q1_2026_Growth_Quality.html)
-- [Dashboard and Reporting Outputs](../dashboard/README.md)
-- [GQI Methodology](../methodology/GQI_Methodology.md)
-- [KPI Dictionary](../documents/KPI_Dictionary.md)
-- [Data Source Mapping](../documents/Data_Source_Mapping.md)

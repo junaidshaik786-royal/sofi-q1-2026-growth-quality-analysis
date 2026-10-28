@@ -4,7 +4,9 @@ This folder contains the SQL scripts used to build, validate, and analyze the da
 
 It covers schema creation, data preparation, validation logic, KPI calculations, customer-friction analysis, and the logic behind the Growth Quality Index. 
 
-Use the scripts in order: **schema → preparation → analytics.**
+Use the scripts in order
+
+**Schema → Preparation → Analytics.**
 
 ## Included
 - [Schema definitions](01_schema.sql)

@@ -1,6 +1,12 @@
 # SoFi Q1 2026 Growth Quality Assessment
 
 <p align="center">
+  <a href="https://sofi-q1-2026-growth-quality.netlify.app/" target="_blank" rel="noopener noreferrer">
+    <img src="https://image.thum.io/get/width/1200/crop/650/https://sofi-q1-2026-growth-quality.netlify.app/" alt="Live dashboard preview of SoFi Q1 2026 growth quality assessment" width="700" />
+  </a>
+</p>
+
+<p align="center">
   <img src="assets/executive-snapshot.svg" alt="SoFi Q1 2026 Executive Snapshot" width="1100" />
 </p>
 

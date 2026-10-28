@@ -8,7 +8,7 @@
 
 **Business question:** *Is SoFi's rapid Q1 2026 growth also high-quality and sustainable?*
 
-I built this analysis to answer a question that matters in FinTech: was SoFi's Q1 2026 growth real, durable, and high-quality — or was it simply a strong headline story backed by volume?
+I built this analysis to answer a question that matters in FinTech: was SoFi's Q1 2026 growth real, durable, and high-quality OR was it simply a strong headline story backed by volume?
 
 The short answer is: the growth was meaningful, but the quality story was mixed.
 
@@ -22,7 +22,7 @@ This project was designed to evaluate that question in a structured way. The goa
 
 Is SoFi's rapid Q1 2026 growth also high-quality and sustainable?
 
-SoFi was clearly growing fast. The issue was not whether the business was scaling — it was whether that scale was translating into deeper customer engagement, stronger unit economics, healthier funding quality, and manageable risk.
+SoFi was clearly growing fast. The issue was not whether the business was scaling - it was whether that scale was translating into deeper customer engagement, stronger unit economics, healthier funding quality, and manageable risk.
 
 I approached the problem as a business analyst rather than a market commentator: using public filings, operating data, customer-friction signals, and a structured scorecard to separate volume growth from real operational quality.
 
@@ -59,13 +59,13 @@ This repository contains the complete project package and the supporting analyti
 
 ## Repository map
 
-- `documents/` — definitions, requirements, source mapping, and business evidence
-- `sql/` — validation and analytical logic used to prepare the data
-- `analysis/` — Excel bridge between SQL outputs and the reporting layer
-- `dashboard/` — reporting assets and final Power BI output
-- `presentation/` — executive presentation package
-- `methodology/` — framework used to evaluate quality signals
-- `index.html` — interactive source report
+- `documents/` -> definitions, requirements, source mapping, and business evidence
+- `sql/` -> validation and analytical logic used to prepare the data
+- `analysis/` -> Excel bridge between SQL outputs and the reporting layer
+- `dashboard/` -> reporting assets and final Power BI output
+- `presentation/` -> executive presentation package
+- `methodology/` -> framework used to evaluate quality signals
+- `index.html` -> interactive source report
 
 ## Key findings
 
@@ -134,7 +134,7 @@ This project is intentionally transparent about its limits. It is an independent
 
 This project is best understood as a structured business-analysis framework for evaluating growth quality, not as a definitive verdict on SoFi's operations.
 
-The aim was to assess whether the rapid Q1 2026 growth pattern appeared durable, economically healthy, and supported by underlying business quality — while making assumptions, data limitations, and evidence quality explicit.
+The aim was to assess whether the rapid Q1 2026 growth pattern appeared durable, economically healthy, and supported by underlying business quality -> while making assumptions, data limitations, and evidence quality explicit.
 
 ## Primary sources
 

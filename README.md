@@ -2,14 +2,9 @@
 
 <p align="center">
   <a href="https://sofi-q1-2026-growth-quality.netlify.app/" target="_blank" rel="noopener noreferrer">
-    <img src="assets/executive-snapshot.svg" alt="SoFi Q1 2026 Growth Quality Assessment live preview" width="100%" />
+    <img src="assets/executive-snapshot.svg" alt="Live preview of the SoFi Q1 2026 Growth Quality Assessment website" width="100%" />
   </a>
 </p>
-
-> Live site: [sofi-q1-2026-growth-quality.netlify.app](https://sofi-q1-2026-growth-quality.netlify.app/)  
-> Repository source: [index.html](index.html)
-
-![Executive overview](assets/executive-snapshot.svg)
 
 I built this analysis to answer a question that matters in FinTech: was SoFi's Q1 2026 growth real, durable, and high-quality — or was it simply a strong headline story backed by volume?
 

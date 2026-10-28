@@ -31,4 +31,4 @@ The workbook does not include raw customer, transaction, or internal SoFi operat
 - [Power BI Dashboard](../dashboard/SoFi_Q1_2026_Growth_Quality_Analysis_Dashboard.pdf)
 - [KPI Dictionary](../documents/KPI_Dictionary.md)
 - [Data Source Mapping](../documents/Data_Source_Mapping.md)
-- [Executive Summary](../documents/Executive Business Analysis Summary.docx)
+- [Executive Summary](../documents/Executive%20Business%20Analysis%20Summary.docx)

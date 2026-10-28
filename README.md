@@ -7,19 +7,25 @@ Independent business analysis portfolio case study evaluating whether SoFi's Q1 
 
 ## Executive summary
 
-This repository analyzes whether SoFi's rapid Q1 2026 growth is sustainable, economically healthy, and structurally durable. The analysis goes beyond headline revenue growth and evaluates customer depth, product adoption, credit risk, lending and funding conditions, cash conversion, and customer-friction signals using public data.
+This project evaluates whether SoFi's Q1 2026 growth is genuinely high-quality and sustainable, not just rapid. It takes a business-analysis lens rather than a headline-metric view, focusing on customer depth, profitability, funding conditions, segment mix, cash conversion, credit risk, and customer-friction signals using public information.
 
-The work is designed as an independent decision-support case study, not an internal SoFi analysis or company-authored scorecard. It relies on publicly available SEC filings, investor materials, and CFPB complaint data, with transparent documentation of methodology, assumptions, and limitations.
+The work is designed as an independent decision-support case study, not as an internal SoFi assessment. It relies on public SEC filings, investor disclosures, and CFPB complaint data, with explicit documentation of assumptions, constraints, and limitations.
 
 ## Business question
 
 Is SoFi's rapid Q1 2026 growth also high-quality and sustainable?
 
-This project asks whether growth is supported by durable customer engagement, profitability, healthy funding, disciplined credit outcomes, and operational execution, rather than by a single headline metric.
+The analysis asks whether growth is supported by durable customer engagement, profitability, healthy funding, disciplined credit outcomes, and operational execution rather than by one headline metric alone.
+
+## Why this project matters
+
+High growth can be exciting, but it does not automatically mean strong business quality. This project evaluates growth through a business lens: what is the underlying customer base doing, how much value is being created, whether funding is stable, whether credit quality appears manageable, and whether operational friction is creating risk.
+
+That makes this repository more than a dashboard project. It is a structured business analysis built to support decisions with evidence.
 
 ## What this repository contains
 
-This repo brings together the full evidence trail for the assessment:
+This repo brings together the main evidence trail for the assessment:
 
 - [Interactive HTML report](documents/SoFi_Q1_2026_Growth_Quality.html)
 - [Power BI dashboard PDF](dashboard/SoFi_Q1_2026_Growth_Quality_Analysis_Dashboard.pdf)
@@ -35,13 +41,23 @@ This repo brings together the full evidence trail for the assessment:
 
 ## Repository map
 
-- `documents/` — project requirements, KPI definitions, source mapping, and evidence notes
-- `sql/` — analytical SQL, validation checks, and data-prep logic
-- `analysis/` — Excel bridge used to translate SQL outputs into the reporting layer
-- `dashboard/` — Power BI dashboard assets and exports
-- `presentation/` — executive presentation deck
-- `methodology/` — methodology and scoring framework
-- `index.html` — live interactive report source
+- `documents/` — business requirements, KPI definitions, source mapping, and evidence notes
+- `sql/` — analytical SQL, validation logic, and preparation steps
+- `analysis/` — Excel bridge used to convert SQL outputs into a reporting layer
+- `dashboard/` — Power BI outputs and reporting assets
+- `presentation/` — presentation deck and executive summary material
+- `methodology/` — scoring logic and framework used in the assessment
+- `index.html` — source for the interactive report
+
+## What to review first
+
+For a quick read:
+
+1. Start with this README.
+2. Open the [interactive report](documents/SoFi_Q1_2026_Growth_Quality.html) or the live site.
+3. Review the [GQI methodology](methodology/GQI_Methodology.md) for the scoring framework.
+4. Check the [KPI dictionary](documents/KPI_Dictionary.md) and [data source mapping](documents/Data_Source_Mapping.md) for definitions and traceability.
+5. Review the [SQL documentation](sql/README.md) and the analysis bridge for reproducibility.
 
 ## Key findings
 
@@ -55,16 +71,16 @@ This repo brings together the full evidence trail for the assessment:
 | Products per member | Approximately 1.51 (project-derived) |
 | Share of new products from existing members | 43% (company-reported) |
 
-The analysis highlights important nuance:
+The analysis highlights several important nuances:
 
-- Cash conversion needs context. GAAP net income was positive, but operating cash flow was negative during the quarter.
-- Funding ratio is not a verdict. Deposits relative to loans can be informative, but does not prove full funding quality by itself.
+- Cash conversion needs context. GAAP net income was positive, but operating cash flow was negative during the period.
+- Funding ratio is not a verdict. Deposits relative to loans can be informative, but do not prove full funding quality by themselves.
 - Segment mix matters. The project distinguishes between consolidated and segment-level revenue denominators to avoid misleading comparisons.
-- Credit and customer-friction signals are directional, not definitive. They are included as evidence points, not a full risk conclusion.
+- Credit and customer-friction signals are directional, not definitive. They are included as evidence points rather than final judgments.
 
 ## Growth quality scorecard
 
-The project uses a separate, analyst-led scorecard to summarize quality signals across key dimensions. This is not an official SoFi metric and should not be interpreted as management's internal assessment.
+This project uses a separate analyst-led scorecard to summarize key quality signals across the business. It is not an official SoFi metric and should not be interpreted as management's internal assessment.
 
 | Dimension | Raw signal | Analyst-selected weight |
 |---|---:|---:|
@@ -79,16 +95,6 @@ The project uses a separate, analyst-led scorecard to summarize quality signals 
 
 *Customer-friction score is provisional while the CFPB source evidence is incomplete.
 
-## How to use this repo
-
-For a quick read:
-
-1. Start with this README.
-2. Open the [interactive report](documents/SoFi_Q1_2026_Growth_Quality.html) or the live site.
-3. Review the [GQI methodology](methodology/GQI_Methodology.md) for scoring logic.
-4. Check the [KPI dictionary](documents/KPI_Dictionary.md) and [data source mapping](documents/Data_Source_Mapping.md) for definitions and traceability.
-5. Review the [SQL documentation](sql/README.md) and source notes for reproducibility.
-
 ## Data sources
 
 Primary sources include:
@@ -100,11 +106,11 @@ Primary sources include:
 
 ## Limitations and disclosure
 
-This is an independent portfolio case study based on public information, not an internal SoFi engagement. No internal customer-service, transaction, or management data were available. The analysis uses external public data and should be interpreted as a transparent evidence-based assessment, not a management-approved operating view.
+This is an independent portfolio case study based on public information, not an internal SoFi engagement. No internal customer-service, transaction, or management data were available. The analysis uses external public data and should be interpreted as a transparent, evidence-based assessment rather than a company-approved operating view.
 
 ## Learnings and next validation
 
-A business-analysis view depends on definitions and context, not charts alone. Ratios need clear denominators, complaint metrics need reproducible extraction details, and scorecards need transparent weights and assumptions.
+A business-analysis view depends on definitions and context, not charts alone. Ratios need clear denominators, complaint metrics need reproducible extraction details, and scorecards need transparent assumptions and weights.
 
 This project is best understood as a structured evidence framework for discussing growth quality with discipline and transparency, not as a definitive verdict on the company.
 
@@ -114,4 +120,3 @@ This project is best understood as a structured evidence framework for discussin
 - [SoFi Investor Relations — Quarterly Results](https://investors.sofi.com/financials/quarterly-results/default.aspx)
 - [SoFi Q1 2026 Earnings Release](https://s27.q4cdn.com/749715820/files/doc_financials/2026/q1/2026-Q1-Earnings-Release_FINAL.pdf)
 - [CFPB Consumer Complaint Database](https://www.consumerfinance.gov/data-research/consumer-complaints/)
-

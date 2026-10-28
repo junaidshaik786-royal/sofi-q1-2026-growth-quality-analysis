@@ -1,60 +1,8 @@
 # SoFi Q1 2026 Growth Quality Assessment
 
 <p align="center">
-  <a href="https://sofi-q1-2026-growth-quality.netlify.app/" target="_blank" rel="noopener noreferrer">
-    <img src="https://image.thum.io/get/width/1200/crop/650/https://sofi-q1-2026-growth-quality.netlify.app/" alt="Preview of SoFi’s business question and hero section" width="700" />
-  </a>
+  <img src="assets/executive-snapshot.svg" alt="SoFi Q1 2026 Executive Snapshot" width="1100" />
 </p>
-
-## Executive Snapshot
-
-<div align="center">
-  <h3>SoFi Q1 2026 — Executive Snapshot</h3>
-  <p><em>Growth, profitability and customer scale used in the portfolio assessment</em></p>
-</div>
-
-<table>
-  <tr>
-    <td width="25%" valign="top" bgcolor="#1a2635" style="padding: 22px 18px; border-radius: 12px;">
-      <div style="font-size: 16px; color: #dfeaf7; font-weight: 600;">Revenue</div>
-      <div style="font-size: 30px; font-weight: 700; color: #f4f7fb; margin-top: 12px;">$1.10B</div>
-      <div style="font-size: 18px; color: #7de8c4; margin-top: 8px;">+43% YoY</div>
-    </td>
-    <td width="25%" valign="top" bgcolor="#1a2635" style="padding: 22px 18px; border-radius: 12px;">
-      <div style="font-size: 16px; color: #dfeaf7; font-weight: 600;">GAAP Net Income</div>
-      <div style="font-size: 30px; font-weight: 700; color: #f4f7fb; margin-top: 12px;">$166.7M</div>
-      <div style="font-size: 18px; color: #7de8c4; margin-top: 8px;">+134% YoY</div>
-    </td>
-    <td width="25%" valign="top" bgcolor="#1a2635" style="padding: 22px 18px; border-radius: 12px;">
-      <div style="font-size: 16px; color: #dfeaf7; font-weight: 600;">Members</div>
-      <div style="font-size: 30px; font-weight: 700; color: #f4f7fb; margin-top: 12px;">14.7M</div>
-      <div style="font-size: 18px; color: #7de8c4; margin-top: 8px;">+35% YoY</div>
-    </td>
-    <td width="25%" valign="top" bgcolor="#1a2635" style="padding: 22px 18px; border-radius: 12px;">
-      <div style="font-size: 16px; color: #dfeaf7; font-weight: 600;">Products</div>
-      <div style="font-size: 30px; font-weight: 700; color: #f4f7fb; margin-top: 12px;">22.2M</div>
-      <div style="font-size: 18px; color: #7de8c4; margin-top: 8px;">+39% YoY</div>
-    </td>
-  </tr>
-  <tr>
-    <td width="25%" valign="top" style="padding: 18px; border-top: 1px solid #2a3a4d;">
-      <div style="font-size: 16px; color: #dfeaf7; font-weight: 600;">Customer depth</div>
-      <div style="font-size: 28px; font-weight: 700; color: #f4f7fb; margin-top: 10px;">~1.51 products/member</div>
-    </td>
-    <td width="25%" valign="top" style="padding: 18px; border-top: 1px solid #2a3a4d;">
-      <div style="font-size: 16px; color: #dfeaf7; font-weight: 600;">Cross-buy</div>
-      <div style="font-size: 28px; font-weight: 700; color: #f4f7fb; margin-top: 10px;">43%</div>
-    </td>
-    <td width="25%" valign="top" style="padding: 18px; border-top: 1px solid #2a3a4d;">
-      <div style="font-size: 16px; color: #dfeaf7; font-weight: 600;">Loan originations</div>
-      <div style="font-size: 28px; font-weight: 700; color: #f4f7fb; margin-top: 10px;">$12.18B</div>
-    </td>
-    <td width="25%" valign="top" style="padding: 18px; border-top: 1px solid #2a3a4d;">
-      <div style="font-size: 16px; color: #dfeaf7; font-weight: 600;">Core question</div>
-      <div style="font-size: 28px; font-weight: 700; color: #f4f7fb; margin-top: 10px;">Is growth sustainable?</div>
-    </td>
-  </tr>
-</table>
 
 **Business question:** *Is SoFi's rapid Q1 2026 growth also high-quality and sustainable?*
 
@@ -127,7 +75,7 @@ This repository contains the complete project package and the supporting analyti
 | Products per member | Approximately 1.51 (project-derived) |
 | Share of new products from existing members | 43% (company-reported) |
 
-| The analysis surfaces several important nuances that matter in a quality assessment:
+The analysis surfaces several important nuances that matter in a quality assessment:
 
 - Cash conversion needs context. GAAP net income was positive, but operating cash flow was negative during the period.
 - Funding ratio is not a verdict. Deposits relative to loans can be informative, but do not prove full funding quality by themselves.

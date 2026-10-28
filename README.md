@@ -2,7 +2,7 @@
 
 **Business Analysis Portfolio Case Study · FinTech / Financial Services**
 
-> **[Open the interactive case study](documents/SoFi_Q1_2026_Growth_Quality.html)**
+> **[Open the live interactive website](https://sofi-q1-2026-growth-quality.netlify.app/)** · [View the HTML source in this repository](index.html)
 
 ## Business question
 

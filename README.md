@@ -10,9 +10,27 @@ The short answer is: the growth was meaningful, but the quality story was mixed.
 
 <table>
   <tr>
-    <td><img src="assets/executive-snapshot.svg" alt="Executive snapshot" width="100%" /></td>
-    <td><img src="assets/growth-quality-index.svg" alt="Growth quality index" width="100%" /></td>
-    <td><img src="assets/cash-conversion.svg" alt="Cash conversion" width="100%" /></td>
+    <td align="center">
+      <a href="assets/executive-snapshot.svg" target="_blank">
+        <img src="assets/executive-snapshot.svg" alt="Executive snapshot" width="100%" />
+      </a>
+      <br>
+      <sub>Executive snapshot</sub>
+    </td>
+    <td align="center">
+      <a href="assets/growth-quality-index.svg" target="_blank">
+        <img src="assets/growth-quality-index.svg" alt="Growth quality index" width="100%" />
+      </a>
+      <br>
+      <sub>Growth Quality Index</sub>
+    </td>
+    <td align="center">
+      <a href="assets/cash-conversion.svg" target="_blank">
+        <img src="assets/cash-conversion.svg" alt="Cash conversion" width="100%" />
+      </a>
+      <br>
+      <sub>Cash conversion</sub>
+    </td>
   </tr>
 </table>
 

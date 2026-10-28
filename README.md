@@ -1,27 +1,33 @@
 # SoFi Q1 2026 Growth Quality Assessment
 
+<p align="center">
+  <a href="https://sofi-q1-2026-growth-quality.netlify.app/" target="_blank" rel="noopener noreferrer">
+    <img src="assets/executive-snapshot.svg" alt="SoFi Q1 2026 Growth Quality Assessment live preview" width="100%" />
+  </a>
+</p>
+
+> Live site: [sofi-q1-2026-growth-quality.netlify.app](https://sofi-q1-2026-growth-quality.netlify.app/)  
+> Repository source: [index.html](index.html)
+
 ![Executive overview](assets/executive-snapshot.svg)
 
 I built this analysis to answer a question that matters in FinTech: was SoFi's Q1 2026 growth real, durable, and high-quality — or was it simply a strong headline story backed by volume?
 
 The short answer is: the growth was meaningful, but the quality story was mixed.
 
-> Live site: [Open the interactive report](https://sofi-q1-2026-growth-quality.netlify.app/)  
-> Repository source: [index.html](index.html)
-
 ## Why this project matters
 
-Growth metrics alone can be misleading. A business can show strong revenue expansion while still facing weak cash conversion, unstable funding conditions, operational friction, or uneven customer depth.
+Growth metrics alone can be misleading. A business can show strong revenue expansion while still facing weak cash conversion, unstable funding conditions, operational friction, or uneven customer engagement. The real challenge is separating genuine quality from headline volume.
 
-This project was designed to evaluate that question in a structured way. The goal was not to label SoFi as simply good or bad, but to assess whether the growth pattern appeared durable, economically healthy, and increasingly defensible.
+This project was designed to evaluate that question in a structured way. The goal was not to label SoFi as simply good or bad, but to assess whether the growth pattern appeared durable, economical, and sustainable.
 
 ## Business question
 
 Is SoFi's rapid Q1 2026 growth also high-quality and sustainable?
 
-SoFi was clearly growing fast. The issue was not whether the business was scaling — it was whether that scale was translating into deeper customer engagement, stronger unit economics, healthier funding, and more durable operating quality.
+SoFi was clearly growing fast. The issue was not whether the business was scaling — it was whether that scale was translating into deeper customer engagement, stronger unit economics, healthier funding quality, and manageable risk.
 
-I approached the problem as a business analyst rather than a market commentator: using public filings, operating data, customer-friction signals, and a structured scorecard to separate volume growth from quality growth.
+I approached the problem as a business analyst rather than a market commentator: using public filings, operating data, customer-friction signals, and a structured scorecard to separate volume growth from real operational quality.
 
 ## What I did
 
@@ -34,7 +40,7 @@ I approached the problem as a business analyst rather than a market commentator:
 
 ## What I learned
 
-The biggest lesson from this work was that business quality is rarely visible in the headline numbers alone. Revenue growth, customer counts, and product expansion can all look strong while the underlying operating quality remains more mixed. The real value of the analysis was in checking the denominator, the context, and the trade-offs.
+The biggest lesson from this work was that business quality is rarely visible in the headline numbers alone. Revenue growth, customer counts, and product expansion can all look strong while the underlying cash conversion, funding profile, and customer experience tell a more nuanced story.
 
 I also learned how important it is to separate a directional signal from a firm conclusion. Public data can be highly informative, but it is never the full story.
 
@@ -87,7 +93,7 @@ The analysis surfaces several important nuances that matter in a quality assessm
 
 ## Growth Quality scorecard
 
-I built the scorecard to summarize the signal quality across the core business dimensions, without pretending that a single number could settle the question. The scorecard below reflects analyst-assigned raw scores on a 1–5 scale, with separate weights for judgment-led emphasis.
+I built the scorecard to summarize the signal quality across the core business dimensions, without pretending that a single number could settle the question. The scorecard below reflects analyst-selected weighting across customer depth, funding quality, profitability, credit risk, segment diversification, operational/customer friction, cash efficiency, and technology platform performance.
 
 | Dimension | Raw signal | Analyst-selected weight |
 |---|---:|---:|
@@ -114,7 +120,7 @@ What stood out most to me was this:
 
 ## Limitations and disclosure
 
-This is an independent analysis based on public information, not an internal SoFi engagement. No internal customer-service, transaction, or management data were available. I did not use insider information, and this project should not be interpreted as a management forecast, credit opinion, or investment recommendation.
+This is an independent analysis based on public information, not an internal SoFi engagement. No internal customer-service, transaction, or management data were available. I did not use insider information, and the project is intentionally transparent about its assumptions and limitations.
 
 ## Data sources and transparency
 
@@ -125,13 +131,13 @@ Primary sources include:
 - SoFi Q1 2026 earnings release
 - CFPB Consumer Complaint Database as a public customer-friction proxy
 
-This project is intentionally transparent about its limits. It is an independent case study based on public information rather than internal SoFi data. No internal customer-service, transaction, or management data were available.
+This project is intentionally transparent about its limits. It is an independent case study based on public information rather than internal SoFi data. No internal customer-service, transaction, or management data were used.
 
 ## Final takeaway
 
 This project is best understood as a structured business-analysis framework for evaluating growth quality, not as a definitive verdict on SoFi's operations.
 
-The aim was to assess whether the rapid Q1 2026 growth pattern appeared durable, economically healthy, and supported by underlying business quality — while making assumptions, data limitations, and interpretation choices visible.
+The aim was to assess whether the rapid Q1 2026 growth pattern appeared durable, economically healthy, and supported by underlying business quality — while making assumptions, data limitations, and evidence quality explicit.
 
 ## Primary sources
 

@@ -14,10 +14,6 @@
 
 **Is SoFi's rapid Q1 2026 growth also high-quality and sustainable?**
 
-## Business question
-
-**Is SoFi's rapid Q1 2026 growth also high-quality and sustainable?**
-
 I built this analysis to answer a question that matters in FinTech: was SoFi's Q1 2026 growth real, durable, and high-quality — or was it simply a strong headline story backed by volume?
 
 The short answer is: the growth was meaningful, but the quality story was mixed.

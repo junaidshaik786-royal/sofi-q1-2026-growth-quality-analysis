@@ -143,8 +143,8 @@ The aim was to assess whether the rapid Q1 2026 growth pattern appeared durable,
 - Sofi-technologies
 - Financial-analysis
 - Equity-research
-- power-bi
-- fintech-case-study
+- Power-bi
+- Fintech-case-study
 
 ## Primary sources
 

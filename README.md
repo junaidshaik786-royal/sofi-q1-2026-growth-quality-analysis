@@ -138,6 +138,14 @@ This project is best understood as a structured business-analysis framework for 
 
 The aim was to assess whether the rapid Q1 2026 growth pattern appeared durable, economically healthy, and supported by underlying business quality — while making assumptions, data limitations, and source transparency explicit.
 
+
+## Topics (tags):  
+- sofi-technologies
+- financial-analysis
+- equity-research
+- power-bi
+- fintech-case-study
+
 ## Primary sources
 
 - [SEC — SoFi Q1 2026 Form 10-Q](https://www.sec.gov/Archives/edgar/data/1818874/000181887426000037/sofi-20260331.htm)
